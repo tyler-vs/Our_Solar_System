@@ -1,0 +1,33 @@
+html, body {
+    margin: 0px;
+}
+
+section { 
+    padding: 150px 0px;
+}
+
+#container div {
+    float: left;
+}
+
+#container1, 
+#container2, 
+#container3,
+#container4,
+#container5, 
+#container6, 
+#container7, 
+#container8,
+#container9 {
+    width: 460px;
+    height: 460px;
+    position: relative;
+    float:left;
+}
+
+/*#progress {
+	position: fixed;
+	height: 2%;
+	bottom: 0;
+	z-index: 300;
+}*/
