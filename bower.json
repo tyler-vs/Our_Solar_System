@@ -1,0 +1,26 @@
+{
+  "name": "SolarSystem",
+  "version": "0.2.0",
+  "homepage": "https://github.com/tyler-vs/project-three-ver-2",
+  "authors": [
+    "tyler-vs <tylervucf@knights.ucf.edu>"
+  ],
+  "description": "Solar System Explorer App, Project Three, DIG4104",
+  "main": "index.html",
+  "keywords": [
+    "js"
+  ],
+  "license": "n",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "stats.js": "*",
+    "dat-gui": "~0.5.1",
+    "threejs": "*"
+  }
+}

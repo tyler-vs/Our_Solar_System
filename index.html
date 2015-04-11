@@ -3,30 +3,28 @@
 
 <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Solar System</title>
 
-    <title>Solar System</title>
+<!-- Bootstrap Core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/bootstrap.vertical-tabs.css"> 
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-	
-	<!-- <link rel="stylesheet" href="css/bootstrap.vertical-tabs.css">  -->
-
-    <!-- Custom CSS -->
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/planetContainers.css">
+<!-- Custom CSS -->
+<link href="css/style.css" rel="stylesheet">
+<link href="css/animate.css" rel="stylesheet">
+<link rel="stylesheet" href="css/planetContainers.css">
 	
    
 	
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <!-- <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css"> -->
+
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 	
 	 <link href='http://fonts.googleapis.com/css?family=Coda' rel='stylesheet' type='text/css'>
 	 
@@ -49,10 +47,12 @@
 </head>
 
 <body>
+	
 
-	        <div class="spaceship">
-				<img class="wow slideInDown" src="img/lunarModule.png" alt=""/>
-		    </div>
+	<!-- Spaceship -->
+	<div class="spaceship">
+		<img class="wow slideInDown" src="img/lunarModule.png" alt=""/>
+	</div>
 	
     <!-- Navigation -->
     <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
@@ -135,21 +135,6 @@
 			</div>
 		</div>
     </section>
-
-    <!-- <section>
-    	<div class="container">
-    		<div class="col-sm-6">
-    			<div id="container1"></div>
-    		</div>
-    		<div class="col-sm-6">
-    			<p>
-    				<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi minus quis voluptas, cum quaerat repellat quisquam repellendus saepe cupiditate doloremque explicabo, distinctio, laboriosam ipsam dolore eius, eveniet officia tempora quod!</span>
-    				<span>Fuga enim debitis reiciendis maiores eius nesciunt consequatur doloribus mollitia qui veritatis eaque minus incidunt consequuntur, libero nostrum voluptatibus. Mollitia aliquam incidunt, quam iure optio libero quo, magni labore dolore.</span>
-    				<span>Repellat omnis quisquam quibusdam veniam est aliquam quae quia quod nihil provident expedita, dolores. Rerum architecto deleniti eaque beatae doloremque dicta omnis, nemo molestiae necessitatibus ratione nihil enim, totam hic.</span>
-    			</p>
-    		</div>
-    	</div>
-    </section> -->
 		
    
 	<!-- Sun -->
@@ -251,22 +236,31 @@
 
 	
 	<!-- space -->
-    <section id="intro1" class="default">
-        
-    </section>
+
+    <section id="intro1" class="default"></section>
+    <section id="intro1" class="default"></section>
 	
-    <section id="intro1" class="default">
-        
-    </section>
-	
+
+
+
+
     <!-- Venus -->
     <section id="venus" class="venus">
+		
 		<div class="container-fluid">
+
+			<!-- title row -->
 		   <div class="row">
-			 <div class="col-lg-4 text-center">
-				<h2 class="wow fadeInLeft planetlabel">Venus</h2>
+			 <div class="col-sm-4 text-center">
+				<h2 class="wow fadeInLeft planetlabel">
+
+				Venus
+
+				</h2>
 			 </div>
 		   </div>
+
+
            <div class="row padt5">
 				<div class="col-lg-4">
 					<!-- <div class="wow fadeInUp" id="3Djupiter">
@@ -413,6 +407,8 @@
 		</div>
     </section>
 	
+
+
 	<!-- Asteroids -->
    <section class="default">
 		<div class="container-fluid" id="pscene3" data-limit-x="0">
@@ -429,26 +425,38 @@
     </section>
 	
    
+
+
 	
 	<!-- Jupiter -->
     <section id="jupiter" class="jupiter">
+
 		<div class="container-fluid">
+
+
 		   <div class="row">
 			 <div class="col-lg-4 text-center">
 				<h2 class="wow fadeInLeft planetlabel">Jupiter</h2>
 			 </div>
 		   </div>
+
+
 		   <div class="row padt5">
 			 <div class="col-lg-4">
-			    <div class="wow fadeInUp" id="3Djupiter">
-			    </div> 
+			    <!-- <div class="wow fadeInUp" id="3Djupiter"> -->
+			    <div id="container6"></div>
 		     </div>
+	       </div>
+
 		   <div class="col-lg-5 col-lg-offset-3">
-					<div class="col-xs-9 padt20 wow fadeInUp">
+
+				<div class="col-xs-9 padt20 wow fadeInUp">
+
 					  <!-- Tab panes -->
 					  <div class="tab-content">
 						<div class="tab-pane active" id="jupiterSum">The most massive planet in our solar system -- with dozens of moons and an enormous magnetic field -- Jupiter forms a kind of miniature solar system. It resembles a star in composition, but did not grow big enough to ignite. The planet's swirling cloud stripes are punctuated by massive storms such as the Great Red Spot, which has raged for hundreds of years.</div>
 						<div class="tab-pane" id="jupiterComp">D3 with some text</div>
+
 						<div class="tab-pane" id="jupiterMoons">Moon info/pics</div>
 					  </div>
 					</div>
@@ -462,10 +470,13 @@
 						<li><a href="#modalJupiterMoons" class="portfolio-link" data-toggle="modal">Moons</a></li>
 					  </ul>
 					</div>
+
 			    </div>
 			</div>
 		</div>
     </section>
+
+
 
 	
     <!-- space -->
@@ -493,7 +504,7 @@
            <div class="row padt5">
 				<div class="col-lg-4">
 					<!-- <img src="img/Meteor.png" alt="" class="img-responsive"/> -->
-					<div id="container5"></div>
+					<div id="container7"></div>
 				</div>
 				<div class="col-lg-5 col-lg-offset-3">
 					<div class="col-xs-9 padt20 wow fadeInUp">
@@ -541,7 +552,8 @@
 				<div class="col-lg-4">
 					<!-- <div class="wow fadeInUp" id="3Djupiter">
 					</div> --> 
-					<img src="img/Meteor.png" alt="" class="img-responsive"/>
+					<!-- <img src="img/Meteor.png" alt="" class="img-responsive"/> -->
+					<div id="container8"></div>
 				</div>	
 				<div class="col-lg-5 col-lg-offset-3">
 					<div class="col-xs-9 padt20 wow fadeInUp">
@@ -590,7 +602,8 @@
 				  <div class="col-lg-4">
 					 <!-- <div class="wow fadeInUp" id="3Djupiter">
 			        </div> --> 
-					<img src="img/Meteor.png" alt="" class="img-responsive"/>
+					<!-- <img src="img/Meteor.png" alt="" class="img-responsive"/> -->
+					<div id="container"></div>
 				  </div>
 				  <div class="col-lg-5 col-lg-offset-3">
 					<div class="col-xs-9 padt20 wow fadeInUp">
@@ -1647,53 +1660,53 @@
 
     <!-- Custom Theme JavaScript -->
     <script>
-    // Closes the sidebar menu
-    //   $("#menu-close").click(function(e) {
-    //     e.preventDefault();
-    //     $("#sidebar-wrapper").toggleClass("active");
-    // }); 
+    Closes the sidebar menu
+      $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    }); 
 
-    // // Opens the sidebar menu
-    // $("#menu-toggle").click(function(e) {
-    //     e.preventDefault();
-    //     $("#sidebar-wrapper").toggleClass("active"); 
-    // });
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active"); 
+    });
  
-    // Scrolls to the selected menu item on the page
-     //$(function() {
-       // $('a[href*=#]:not([href=#])').click(function() {
-        //    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+    Scrolls to the selected menu item on the page
+     $(function() {
+       $('a[href*=#]:not([href=#])').click(function() {
+           if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
 
-        //        var target = $(this.hash);
-          //      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-              //  if (target.length) {
-              //      $('html,body').animate({
-              //          scrollTop: target.offset().top
-             //       }, 1000);
-             //       return false;
-             //   }
-          //  }
-       // });
-  //  }); 
+               var target = $(this.hash);
+               target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+               if (target.length) {
+                   $('html,body').animate({
+                       scrollTop: target.offset().top
+                   }, 1000);
+                   return false;
+               }
+           }
+       });
+   }); 
     </script>
 	
 	
 	
-	<!-- // <script src="js/typed.js"></script> -->
-	<!--<script>
-	//   $(function(){
-	// 	  $(".exploretxt").typed({
-	// 		strings: ["Welcome to our Solar System", "Start your journey by scrolling down"],
-	// 		typeSpeed: 1
-	// 	  });
-	//   });
-	// </script>
+	<script src="js/typed.js"></script>
+	<script>
+	  $(function(){
+		  $(".exploretxt").typed({
+			strings: ["Welcome to our Solar System", "Start your journey by scrolling down"],
+			typeSpeed: 1
+		  });
+	  });
+	</script>
 
 	
 	<script src="js/wow.min.js"></script>
 	<script>
 	 new WOW().init();
-	</script> -->
+	</script> 
 
 
 	

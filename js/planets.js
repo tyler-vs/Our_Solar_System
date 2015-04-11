@@ -24,11 +24,11 @@ var container1 = document.getElementById('container1');
 var container2 = document.getElementById('container2');
 var container3 = document.getElementById('container3');
 var container4 = document.getElementById('container4');
-// var container5 = document.getElementById('container5');
-// var container6 = document.getElementById('container6');
-// var container7 = document.getElementById('container7');
-// var container8 = document.getElementById('container8');
-// var container9 = document.getElementById('container9');
+var container5 = document.getElementById('container5');
+var container6 = document.getElementById('container6');
+var container7 = document.getElementById('container7');
+var container8 = document.getElementById('container8');
+var container9 = document.getElementById('container9');
 
 
 //
@@ -58,11 +58,11 @@ apps.push( new App( 'container1', fullWidth, fullHeight, w * 0, h * 0, container
 apps.push( new App( 'container2', fullWidth, fullHeight, w * 1, h * 0, container2.clientWidth, container2.clientHeight ) );
 apps.push( new App( 'container3', fullWidth, fullHeight, w * 0, h * 1, container3.clientWidth, container3.clientHeight ) );
 apps.push( new App( 'container4', fullWidth, fullHeight, w * 1, h * 1, container4.clientWidth, container4.clientHeight ) );
-// apps.push( new App( 'container5', fullWidth, fullHeight, w * 1, h * 1, container5.clientWidth, container5.clientHeight ) );
-// apps.push( new App( 'container6', fullWidth, fullHeight, w * 1, h * 1, container6.clientWidth, container6.clientHeight ) );
-// apps.push( new App( 'container7', fullWidth, fullHeight, w * 1, h * 1, container7.clientWidth, container7.clientHeight ) );
-// apps.push( new App( 'container8', fullWidth, fullHeight, w * 1, h * 1, container8.clientWidth, container8.clientHeight ) );
-// apps.push( new App( 'container9', fullWidth, fullHeight, w * 1, h * 1, container9.clientWidth, container9.clientHeight ) );
+apps.push( new App( 'container5', fullWidth, fullHeight, w * 1, h * 1, container5.clientWidth, container5.clientHeight ) );
+apps.push( new App( 'container6', fullWidth, fullHeight, w * 1, h * 1, container6.clientWidth, container6.clientHeight ) );
+apps.push( new App( 'container7', fullWidth, fullHeight, w * 1, h * 1, container7.clientWidth, container7.clientHeight ) );
+apps.push( new App( 'container8', fullWidth, fullHeight, w * 1, h * 1, container8.clientWidth, container8.clientHeight ) );
+apps.push( new App( 'container9', fullWidth, fullHeight, w * 1, h * 1, container9.clientWidth, container9.clientHeight ) );
 }
 function animate() {
 for ( var i = 0; i < apps.length; ++i ) {
@@ -75,10 +75,10 @@ requestAnimationFrame( animate );
 function App( containerId, fullWidth, fullHeight, viewX, viewY, viewWidth, viewHeight ) {
 
 // init variables
-var container, stats;
-var camera, scene, renderer;
+  var container, stats;
+  var camera, scene, renderer;
 // not used.
-var mesh, group1, group2, group3, light;
+  var mesh, group1, group2, group3, light;
 
 var sunGroup,
     mercuryGroup,
@@ -157,25 +157,37 @@ neptune: '95A5A6 '
 //
 // planet textures
 //
+var textPath = 'img/planets/';  // update this if path changes
 var planetTexture = {
-sun:      THREE.ImageUtils.loadTexture('img/planets/sun.jpg'),
-earth:    THREE.ImageUtils.loadTexture('img/planets/earth.jpg'),
-jupiter:  THREE.ImageUtils.loadTexture('img/planets/jupiter.jpg'),
-mars:     THREE.ImageUtils.loadTexture('img/planets/mars.jpg'),
-mercury:  THREE.ImageUtils.loadTexture('img/planets/mercury.jpg'),
-neptune:  THREE.ImageUtils.loadTexture('img/planets/neptune.jpg'),
-pluto:    THREE.ImageUtils.loadTexture('img/planets/pluto.jpg'),
-saturn:   THREE.ImageUtils.loadTexture('img/planets/saturn.jpg'),
-uranus:   THREE.ImageUtils.loadTexture('img/planets/uranus.jpg'),
-venus:    THREE.ImageUtils.loadTexture('img/planets/venus.jpg')
+    sun:      THREE.ImageUtils.loadTexture( textPath + 'sun.jpg'),
+    earth:    THREE.ImageUtils.loadTexture( textPath + 'earth.jpg'),
+    jupiter:  THREE.ImageUtils.loadTexture( textPath + 'jupiter.jpg'),
+    mars:     THREE.ImageUtils.loadTexture( textPath + 'mars.jpg'),
+    mercury:  THREE.ImageUtils.loadTexture( textPath + 'mercury.jpg'),
+    neptune:  THREE.ImageUtils.loadTexture( textPath + 'neptune.jpg'),
+    pluto:    THREE.ImageUtils.loadTexture( textPath + 'pluto.jpg'),
+    saturn:   THREE.ImageUtils.loadTexture( textPath + 'saturn.jpg'),
+    uranus:   THREE.ImageUtils.loadTexture( textPath + 'uranus.jpg'),
+    venus:    THREE.ImageUtils.loadTexture( textPath + 'venus.jpg')
 };
-
+// consolidate all the images
+// into one folder.
+var bumpPath = 'images/'
 var planetBumps = {
-  earth:   THREE.ImageUtils.loadTexture('images/earthbump1k.jpg'),
-  mercury: THREE.ImageUtils.loadTexture('images/mercurybump1.jpg'),
-  venus:   THREE.ImageUtils.loadTexture('images/venusbump.jpg'),
-  mars:    THREE.ImageUtils.loadTexture('images/marsbump.jpg')
+  earth:   THREE.ImageUtils.loadTexture( bumpPath + 'earthbump1k.jpg'),
+  mercury: THREE.ImageUtils.loadTexture( bumpPath + 'mercurybump.jpg'),
+  venus:   THREE.ImageUtils.loadTexture( bumpPath + 'venusbump.jpg'),
+  mars:    THREE.ImageUtils.loadTexture( bumpPath + 'marsbump1k.jpg')
 }
+//
+// bumAmount controller, easier to fine tune.
+var bumpAmount = {
+  mercury: 0, //0.2,
+  venus: 0, //0.2,
+  earth: 0, //0.4,
+  mars: 0 //0.8
+}
+
 /*
 var materials = [
 new THREE.MeshLambertMaterial( { color: 0x03A678, shading: THREE.FlatShading, vertexColors: THREE.VertexColors } ),
@@ -189,25 +201,25 @@ new THREE.MeshPhongMaterial({map: planetTexture.sun }),
 
 var mercuryMats = [
 // new THREE.MeshLambertMaterial( { color: planetColors.mercury } ),
-new THREE.MeshPhongMaterial({map: planetTexture.mercury, bump: planetBumps.mercury }),
+new THREE.MeshPhongMaterial({ map: planetTexture.mercury, bumpMap: planetBumps.mercury, bumpScale: bumpAmount.mercury }),
 // new THREE.MeshBasicMaterial( {  wireframe: true, transparent: true } )
 ];
 
 var venusMats = [
 // new THREE.MeshLambertMaterial( { color: planetColors.venus, shading: THREE.FlatShading, vertexColors: THREE.VertexColors } ),
-new THREE.MeshPhongMaterial({map: planetTexture.venus , bump: planetBumps.venus}),
+new THREE.MeshPhongMaterial({map: planetTexture.venus , bumpMap: planetBumps.venus, bumpScale: bumpAmount.venus }),
 // new THREE.MeshBasicMaterial( {  wireframe: true, transparent: true } )
 ];
 
 var earthMats = [
 // new THREE.MeshLambertMaterial( { color: planetColors.earth, shading: THREE.FlatShading, vertexColors: THREE.VertexColors } ),
-new THREE.MeshPhongMaterial({map: planetTexture.earth , bump: planetBumps.earth}),
+new THREE.MeshPhongMaterial({map: planetTexture.earth , bumpMap: planetBumps.earth, bumpScale: bumpAmount.earth }),
 // new THREE.MeshBasicMaterial( {  wireframe: true, transparent: true } )
 ];
 
 var marsMats = [
 // new THREE.MeshLambertMaterial( { color: planetColors.mars, shading: THREE.FlatShading, vertexColors: THREE.VertexColors } ),
-new THREE.MeshPhongMaterial({map: planetTexture.mars , bump: planetBumps.mars}),
+new THREE.MeshPhongMaterial({map: planetTexture.mars , bumpMap: planetBumps.mars, bumpScale: bumpAmount.mars }),
 // new THREE.MeshBasicMaterial( {  wireframe: true, transparent: true } )
 ];
 
