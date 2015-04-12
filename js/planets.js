@@ -132,15 +132,15 @@ scene.add( light );
 =================== */
 
 // size, horiz segments, verticle segments; more = smoother
-var geometrySun =       new THREE.SphereGeometry( 80, 64, 64),
-    geometryMercury =   new THREE.SphereGeometry( 10, 64, 64),
-    geometryVenus =     new THREE.SphereGeometry( 10, 64, 64),
-    geometryEarth =     new THREE.SphereGeometry( 30, 64, 64),
-    geometryMars =      new THREE.SphereGeometry( 30, 64, 64),
-    geometryJupiter =   new THREE.SphereGeometry( 50, 64, 64),
-    geometrySaturn =    new THREE.SphereGeometry( 50, 64, 64),
-    geometryUranus =    new THREE.SphereGeometry( 40, 64, 64),
-    geometryNeptune =   new THREE.SphereGeometry( 40, 64, 64);
+var geometrySun =       new THREE.SphereGeometry( 80, 16, 16),
+    geometryMercury =   new THREE.SphereGeometry( 10, 16, 16),
+    geometryVenus =     new THREE.SphereGeometry( 10, 16, 16),
+    geometryEarth =     new THREE.SphereGeometry( 30, 16, 16),
+    geometryMars =      new THREE.SphereGeometry( 30, 16, 16),
+    geometryJupiter =   new THREE.SphereGeometry( 50, 16, 16),
+    geometrySaturn =    new THREE.SphereGeometry( 50, 16, 16),
+    geometryUranus =    new THREE.SphereGeometry( 40, 16, 16),
+    geometryNeptune =   new THREE.SphereGeometry( 40, 16, 16);
 /*
 not using we have textures now.
 var planetColors = {

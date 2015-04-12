@@ -1,14 +1,8 @@
-html, body {
-    margin: 0px;
-}
+/*
 
-section { 
-    padding: 150px 0px;
-}
+this ensures our three.js renders are atleast the views width and height
 
-#container div {
-    float: left;
-}
+*/
 
 #container1, 
 #container2, 
@@ -24,10 +18,3 @@ section {
     position: relative;
     float:left;
 }
-
-/*#progress {
-	position: fixed;
-	height: 2%;
-	bottom: 0;
-	z-index: 300;
-}*/
