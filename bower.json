@@ -21,6 +21,10 @@
   "dependencies": {
     "stats.js": "*",
     "dat-gui": "~0.5.1",
-    "threejs": "*"
+    "threejs": "*",
+    "d3": "~3.5.5",
+    "wowjs": "~1.1.2",
+    "bootstrap": "~3.3.4",
+    "skrollr": "~0.6.29"
   }
 }
