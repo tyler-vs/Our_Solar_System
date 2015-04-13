@@ -34,5 +34,10 @@
   },
   "_source": "git://github.com/Prinzhorn/skrollr.git",
   "_target": "~0.6.29",
+<<<<<<< HEAD
   "_originalSource": "skrollr"
+=======
+  "_originalSource": "skrollr",
+  "_direct": true
+>>>>>>> f58f5f3629925cf6fc6d2482d007517b7f661049
 }

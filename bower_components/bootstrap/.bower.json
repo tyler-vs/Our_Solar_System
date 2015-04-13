@@ -44,5 +44,10 @@
   },
   "_source": "git://github.com/twbs/bootstrap.git",
   "_target": "~3.3.4",
+<<<<<<< HEAD
   "_originalSource": "bootstrap"
+=======
+  "_originalSource": "bootstrap",
+  "_direct": true
+>>>>>>> f58f5f3629925cf6fc6d2482d007517b7f661049
 }
