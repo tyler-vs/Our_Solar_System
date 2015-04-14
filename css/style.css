@@ -34,7 +34,7 @@ p {
 	font-family: 'Monda', sans-serif;
 	font-weight: 400;
 	letter-spacing: .1em;
-	font-size: 16px;
+	font-size: 18px;
 }
 
 .exploretxt {
@@ -42,6 +42,20 @@ p {
 	/* font-family: 'Inconsolata', ;  */
 	font-weight: 400;
 	letter-spacing: .1em;
+	-webkit-animation-delay: 1.4s;
+}
+
+.welcometxt {
+    font-family: 'Coda', sans-serif;  
+	/* font-family: 'Inconsolata', ;  */
+	font-weight: 400;
+	letter-spacing: .2em;
+}
+
+.cool {
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 2s;
+ /*  -webkit-animation-iteration-count: infinite; */
 }
 
 .text-vertical-center {
@@ -362,9 +376,12 @@ footer {
 .spaceship {
 	position: fixed;
     top: 50%;
-    left: 50%;
+    left: 45%;
     margin-right: -50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
+	-ms-animation-iteration-count: infinite;
 }
 
 .littleMap {

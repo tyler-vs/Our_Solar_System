@@ -15,10 +15,6 @@
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="css/bootstrap.vertical-tabs.css"> 
 
-<!-- Custom CSS -->
-<link href="css/style.css" rel="stylesheet">
-<link href="css/animate.css" rel="stylesheet">
-<link rel="stylesheet" href="css/planetContainers.css">
 	
 <link rel="icon" type="image/x-icon" href="img/icons/favicon.ico" />   
 
@@ -36,8 +32,6 @@
 	<link href="bower_components/wowjs/css/libs/animate.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/planetContainers.css">
 
-<!-- pure drawer ? -->
-	<!-- <link rel="stylesheet" href="css/pure-drawer.min.css"/> -->
 	
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -52,8 +46,12 @@
 	
 
 	<!-- Spaceship -->
-	<div class="spaceship">
-		<img class="wow slideInDown" src="img/lunarModule.png" alt=""/>
+	<div class="container-fluid">
+		<div class="spaceship" id="pscene4">
+			<ul>
+				<li class="layer" data-depth="10.00"><img class='img-responsive' src="img/rocketSD.png" alt=""/></li>
+			</ul>
+		</div>
 	</div>
 	
     <!-- Navigation -->
@@ -102,8 +100,21 @@
     <header id="top" class="header">
 		<div class="container-fluid">
 			<div class="text-vertical-center">
-				<h1 class="exploretxt"></h1>
-				 <!-- <h3>Explore</h3> -->
+				<!-- <h1 class=""></h1> -->
+				 <h1 class='welcometxt wow fadeInDown'>Welcome to our Solar System</h1>
+				 <h2 class='exploretxt wow fadeInUp'>Scroll down to explore</h2>
+			</div>
+			<div class="row padt5" id='pscene5' data-limit-x="0">
+				<div class="col-lg-4 col-lg-offset-1">
+					<ul>
+						<li class="layer" data-depth=".50"><img class='center-block img-responsive' src="img/EMU2.png" alt=""/></li>
+					</ul>
+				</div>
+				<div class="col-lg-4 col-lg-offset-3">
+					<ul>
+						<li class="layer" data-depth=".50"><img class='center-block img-responsive' src="img/MKIIIS.png" alt=""/></li>
+					</ul>
+				</div>
 			</div>
 		</div>
     </header>
@@ -196,10 +207,7 @@
 
 	
 	<!-- space -->
-    <section class="afterSun">
-		<div class="container-fluid" id="pscene4" data-limit-x="0">
-		</div>
-    </section>
+    <section class="afterSun"></section>
     
 	<section class="afterSun2"></section>
   
@@ -1693,12 +1701,14 @@
 		// }); 
 	
 	// typed js init
-		$(function(){
-		  $(".exploretxt").typed({
-			strings: ["Welcome to our Solar System", "Start your journey by scrolling down"],
-			typeSpeed: 1
-		  });
-		});
+		//$(function(){
+		//  $(".welcometxt").typed({
+		//	strings: ["Welcome to our Solar System  <br> Scroll down to explore"],
+		//	typeSpeed: 0,
+		//	showCursor: true
+		//  });
+	//	});
+		
 	
 	// WOW.js init
 	new WOW().init();
@@ -1715,6 +1725,9 @@
 	
 	var pscene4 = document.getElementById('pscene4');
 	var parallax = new Parallax(pscene4);
+	
+	var pscene5 = document.getElementById('pscene5');
+	var parallax = new Parallax(pscene5);
 	
 </script>
 
