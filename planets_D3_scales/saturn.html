@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<script src="./scripts.js"></script>
+	<script src="./jquery/jquery.min.js"></script>
+	<!-- STYLES FOR SCALE ON LOCATION TAB OF PLANETS -->
+    <style type="text/css">
+    		body {background-color: transparent;}
+			.axis path,.axis line {fill: none;stroke:#b6b6b6;shape-rendering: crispEdges;}
+			/*.tick line{fill:none;stroke:none;}*/
+			.tick text{fill:#999;}
+			text.label{font-size:19px;font-weight:bold;cursor:pointer;}
+	</style>
+
+</head>
+
+<body marginwidth="0" marginheight="0">
+
+	<svg width="620" height="50" style="margin-left: 20px;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink= "http://www.w3.org/1999/xlink">
+								<g transform="translate(20,20)">
+									<g class="x axis" transform="translate(0,0)">
+										<g class="tick major" transform="translate(0,0)" style="opacity: 1;">
+											<line  y2="-6" x2="0"></line>
+											<text y="-9" x="0" dy="0em" style="text-anchor: middle;">0</text>
+										</g>
+										<g class="tick major" transform="translate(31.81818181818182,0)" style="opacity: 1;">
+											<line y2="-6" x2="0"></line>
+											<text y="-9" x="0" dy="0em" style="text-anchor: middle;">.2</text>
+										</g>
+										<g class="tick major" transform="translate(63.63636363636364,0)" style="opacity: 1;">
+											<line y2="-6" x2="0"></line>
+											<text y="-9" x="0" dy="0em" style="text-anchor: middle;">.4</text>
+										</g>
+										<g class="tick major" transform="translate(95.45454545454545,0)" style="opacity: 1;">
+											<line y2="-6" x2="0"></line>
+											<text y="-9" x="0" dy="0em" style="text-anchor: middle;">.6</text>
+										</g>
+										<g class="tick major" transform="translate(127.27272727272728,0)" style="opacity: 1;">
+											<line y2="-6" x2="0"></line>
+											<text y="-9" x="0" dy="0em" style="text-anchor: middle;">.8</text>
+										</g>
+										<g class="tick major" transform="translate(159.0909090909091,0)" style="opacity: 1;">
+											<line y2="-6" x2="0"></line>
+											<text y="-9" x="0" dy="0em" style="text-anchor: middle;">1</text>
+										</g>
+										<g class="tick major" transform="translate(190.9090909090909,0)" style="opacity: 1;">
+											<line y2="-6" x2="0"></line>
+											<text y="-9" x="0" dy="0em" style="text-anchor: middle;">2</text>
+										</g>
+										<g class="tick major" transform="translate(222.72727272727272,0)" style="opacity: 1;">
+											<line y2="-6" x2="0"></line>
+											<text y="-9" x="0" dy="0em" style="text-anchor: middle;">4</text>
+										</g>
+										<g class="tick major" transform="translate(254.54545454545456,0)" style="opacity: 1;">
+											<line y2="-6" x2="0"></line>
+											<text y="-9" x="0" dy="0em" style="text-anchor: middle;">8</text>
+										</g>
+										<g class="tick major" transform="translate(286.3636363636364,0)" style="opacity: 1;">
+											<line y2="-6" x2="0"></line>
+											<text y="-9" x="0" dy="0em" style="text-anchor: middle;">10</text>
+										</g>
+										<g class="tick major" transform="translate(318.1818181818182,0)" style="opacity: 1;">
+											<line y2="-6" x2="0"></line>
+											<text y="-9" x="0" dy="0em" style="text-anchor: middle;">20</text>
+										</g>
+										<g class="tick major" transform="translate(350,0)" style="opacity: 1;">
+											<line y2="-6" x2="0"></line>
+											<text y="-9" x="0" dy="0em" style="text-anchor: middle;">30</text>
+										</g>
+										<path class="domain" d="M0,-6V0H350V-6"></path>
+									</g>
+									<g class="journal">
+										<image xlink:href="../img/icons/sun.ico" x="-7" y="10" height="20px" width="20px"/>
+										<image xlink:href="../img/icons/saturn.ico" x="260" y="10" height="20px" width="20px"/>
+										<text y="25" x="370" class="label" style="fill: #aa7243;">Sun to Saturn is 9.539 AU</text>
+									</g>
+								</g>
+							</svg>
+</body>
+</html>
