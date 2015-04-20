@@ -64,40 +64,43 @@
             <li class="sidebar-brand">
                 <a href="#top">Our Solar System</a>
             </li>
-            <li>
-                <a href="#sun"><img src="img/icons/sun.ico" width="40px" alt="" class="nav-icons img-responsive"/></a>
+            <li class='navTxt'>
+                <a href="#sun"><img src="img/icons/sun.ico" width="40px" alt="" class="nav-icons img-responsive"/><p class="imgDescription">Sun</p></a>
             </li>
-            <li>
-                <a href="#mercury"><img src="img/icons/mercury.ico" width="40px" alt="" class="nav-icons img-responsive"/></a>
+            <li class='navTxt'>
+                <a href="#mercury"><img src="img/icons/mercury.ico" width="40px" alt="" class="nav-icons img-responsive"/><p class="imgDescription">Mercury</p></a>
             </li>
-            <li>
-                <a href="#venus"><img src="img/icons/venus.ico" width="40px" alt="" class="nav-icons img-responsive"/></a>
+            <li class='navTxt'>
+                <a href="#venus"><img src="img/icons/venus.ico" width="40px" alt="" class="nav-icons img-responsive"/><p class="imgDescription">Venus</p></a>
             </li>
-            <li>
-                <a href="#earth"><img src="img/icons/earth.ico" width="40px" alt="" class="nav-icons img-responsive"/></a>
+            <li class='navTxt'>
+                <a href="#earth"><img src="img/icons/earth.ico" width="40px" alt="" class="nav-icons img-responsive"/><p class="imgDescription">Earth</p></a>
             </li>
-            <li>
-                <a href="#mars"><img src="img/icons/mars.ico" width="40px" alt="" class="nav-icons img-responsive"/></a>
+            <li class='navTxt'>
+                <a href="#mars"><img src="img/icons/mars.ico" width="40px" alt="" class="nav-icons img-responsive"/><p class="imgDescription">Mars</p></a>
             </li>
-			<li>
-                <a href="#jupiter"><img src="img/icons/jupiter.ico" width="40px" alt="" class="nav-icons img-responsive"/></a>
+			<li class='navTxt'>
+                <a href="#jupiter"><img src="img/icons/jupiter.ico" width="40px" alt="" class="nav-icons img-responsive"/><p class="imgDescription">Jupiter</p></a>
             </li>
-            <li>
-                <a href="#saturn"><img src="img/icons/saturn.ico" width="40px" alt="" class="nav-icons img-responsive"/></a>
+            <li class='navTxt'>
+                <a href="#saturn"><img src="img/icons/saturn.ico" width="40px" alt="" class="nav-icons img-responsive"/><p class="imgDescription">Saturn</p></a>
             </li>
-            <li>
-                <a href="#uranus"><img src="img/icons/uranus.ico" width="40px" alt="" class="nav-icons img-responsive"/></a>
+            <li class='navTxt'>
+                <a href="#uranus"><img src="img/icons/uranus.ico" width="40px" alt="" class="nav-icons img-responsive"/><p class="imgDescription">Uranus</p></a>
             </li>
-            <li>
-                <a href="#neptune"><img src="img/icons/neptune.ico" width="40px" alt="" class="nav-icons img-responsive"/></a>
+            <li class='navTxt'>
+                <a  href="#neptune"><img src="img/icons/neptune.ico" width="40px" alt="" class="nav-icons img-responsive"/><p class="imgDescription">Neptune</p></a>
             </li>
+			
         </ul>
-    </nav> 
+    </nav> 					
+					
+	
 	
 	<div id="volume-toggle">
 		<audio loop id="soundTour" src="audio/Marmalade.mp3"></audio>
 		<button id="switch" type="button" class="btn btn-dark btn-lg showArchieved" onclick="document.getElementById('soundTour').muted=!document.getElementById('soundTour').muted"><span class="glyphicon glyphicon-volume-up"></span></button>
-	</div>
+	</div> 
 
 	<audio id='beep'> 
 	  <source src="audio/beep.mp3">
@@ -127,6 +130,10 @@
 					<ul>
 						<li class="layer" data-depth="0.80" id='rightAstro' data-toggle="popover" data-placement="top" data-content="I hope you learn something new!"><img class='wow rotateIn center-block img-responsive' src="img/MKIIIS.png" alt=""/></li>
 					</ul>
+					 <!-- <div id="cf">
+					  <img class="bottom" src="img/EMU2.png" />
+					  <img class="wow fadeIn top" src="img/MKIIIS.png" />
+					</div> -->
 				</div>
 			</div>
 		</div>
@@ -319,7 +326,7 @@
 						<li class="active"><a href="#venusSum" data-toggle="tab">Summary</a></li>
 						<li><a href="#modalVenusLoc" class="portfolio-link" data-toggle="modal">Location</a></li>
 						<li><a href="#modalVenusComp" class="portfolio-link" data-toggle="modal">Composition</a></li>
-						<li><a href="#modalVenusMoons" class="portfolio-link" data-toggle="modal">Moon</a></li>
+						<!-- <li><a href="#modalVenusMoons" class="portfolio-link" data-toggle="modal">Moon</a></li> -->
 					  </ul>
 					</div>
 			    </div>
@@ -689,24 +696,24 @@
 			<div class="row padt3" id='pscene8' data-limit-x="0">	
 				<div class="col-lg-4 col-lg-offset-4 text-center">
 					<ul>
-						<li class="layer" data-depth="1.00"><h2 class='wow fadeInUp'>Created by</h2></li>
+						<li class="layer" data-depth="0.70"><h2 class='wow fadeInUp'>Created by</h2></li>
 					</ul>
 				</div>
 			</div>
-			<div class="row padt3 text-center" id='pscene9' data-limit-x="0">
-				<div class="col-lg-4">
+			<div class="row padt5" id='pscene9' data-limit-x="0">
+				<div class="col-lg-4 endNames">
 					<ul>
-						<li class="layer" data-depth="2.20"><h2 class='wow fadeIn'>Joey Jensen</h2></li>
+						<li class="layer" data-depth="2.20"><h3 class='wow fadeIn'>Joey Jensen</h3></li>
 					</ul>
 				</div>
-				<div class="col-lg-4">
+				<div class="col-lg-4 endNames">
 					<ul>
-						<li class="layer" data-depth="4.00"><h2 class='wow fadeIn'>John Panayiotou</h2></li>
+						<li class="layer" data-depth="1.00"><h3 class='wow fadeIn'>John Panayiotou</h3></li>
 					</ul>
 				</div>
-				<div class="col-lg-4">
+				<div class="col-lg-4 endNames">
 					<ul>
-						<li class="layer" data-depth="3.10"><h2 class='wow fadeIn'>Tyler Van Schaick</h2></li>
+						<li class="layer" data-depth="1.80"><h3 class='wow fadeIn'>Tyler Van Schaick</h3></li>
 					</ul>
 				</div>
 			</div>
@@ -1131,21 +1138,26 @@
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-lg-4 col-lg-offset-4">
-							 <h3 class='animated pulse text-center'>Moon</h3>
+							 <h3 class='animated pulse text-center'>Our Moon</h3>
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-lg-4 col-lg-offset-2">
-							 <img src="img/Meteor.png" alt="" class="img-responsive"/>
-							 <p class='padt10'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas scelerisque ac dui vel dignissim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras viverra sit amet elit efficitur consequat. Donec dignissim magna vitae justo tristique, ac laoreet nulla porta. Integer vel efficitur lorem. Donec semper lacinia lorem. Donec vel est a ipsum auctor maximus. Fusce ornare, dolor eget posuere lobortis, mi erat viverra eros, in porttitor lectus diam ac sem. Cras eu finibus magna, ac efficitur enim. Vivamus consectetur lacinia tortor. Donec sollicitudin porta nisi, ultrices consequat neque placerat ut. Morbi pharetra leo a ante ornare, eget imperdiet nulla lobortis. Nunc a commodo felis.</p>
-							 
+					<div class="row padt3">
+						<div class="col-lg-4 col-lg-offset-4">
+							 <img id="moonpic" src="img/moons/earth/moon.png" height="80%" width="80%" alt="" class="img-responsive moonImgs center-block"/>
 						</div>
-						 <div class="col-lg-4">
-							 <img src="img/Meteor.png" alt="" class="img-responsive"/>
-							 <img src="img/Meteor.png" alt="" class="img-responsive"/>
-							 <img src="img/Meteor.png" alt="" class="img-responsive"/>
+					</div>
+					<div class="row padt3">
+						<div class="col-lg-12 text-center">							 
+							 <p id="moon" style="display: none">Moon</p>
 						</div>
-					</div>                         
+					</div>
+					<div class="row padt3">
+						<div class="col-lg-4 col-lg-offset-4">
+							  <ul class='padt7' id='psceneJupiterMoons' data-limit-x="10">
+								<li id='juptierMoonAstro' data-toggle="popover" data-placement="top" data-content="Fun fact: Jupiter has 50 known moons, with an additional 17 moons awaiting confirmation of their discovery -- that is a total of 67 moons!" class="layer" data-depth="1.00"><img class='animated rollIn center-block img-responsive' src="img/factAstronautS.png" alt=""/></li>
+							</ul>
+						</div>
+					</div>    		
 			<!-- <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button> -->
 						</div>
 					</div>
@@ -1244,17 +1256,29 @@
 							 <h3 class='animated pulse text-center'>Moons</h3>
 						</div>
 					</div>
-					<div class="row">
+					<div class="row padt3">
 						<div class="col-lg-4 col-lg-offset-2">
-							 <p class='padt10'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas scelerisque ac dui vel dignissim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras viverra sit amet elit efficitur consequat. Donec dignissim magna vitae justo tristique, ac laoreet nulla porta. Integer vel efficitur lorem. Donec semper lacinia lorem. Donec vel est a ipsum auctor maximus. Fusce ornare, dolor eget posuere lobortis, mi erat viverra eros, in porttitor lectus diam ac sem. Cras eu finibus magna, ac efficitur enim. Vivamus consectetur lacinia tortor. Donec sollicitudin porta nisi, ultrices consequat neque placerat ut. Morbi pharetra leo a ante ornare, eget imperdiet nulla lobortis. Nunc a commodo felis.</p>
-							 <img src="img/Meteor.png" alt="" class="img-responsive"/>
+							 <img id="phobospic" src="img/moons/mars/phobos.png" height="50%" width="50%" alt="Triton Moon Image" class="img-responsive moonImgs"/>
 						</div>
-						 <div class="col-lg-4">
-							 <img src="img/Meteor.png" alt="" class="img-responsive"/>
-							 <img src="img/Meteor.png" alt="" class="img-responsive"/>
-							 <img src="img/Meteor.png" alt="" class="img-responsive"/>
+						<div class="col-lg-4">							 
+							 <p class='moonTxt' id="phobos" style="display: none">Phobos</p>
 						</div>
-					</div>                         
+					</div>
+					<div class="row padt3">
+						<div class="col-lg-4 col-lg-offset-2">
+							 <img id="deimospic" src="img/moons/mars/deimos.png" height="50%" width="50%" alt="" class="img-responsive moonImgs"/>
+						</div>
+						<div class="col-lg-4">							 
+							 <p class='moonTxt' id="deimos" style="display: none">Deimos</p>
+						</div>
+					</div>
+					<div class="row padt3">
+						<div class="col-lg-4 col-lg-offset-4">
+							  <ul class='padt7' id='psceneJupiterMoons' data-limit-x="10">
+								<li id='juptierMoonAstro' data-toggle="popover" data-placement="top" data-content="Fun fact: Jupiter has 50 known moons, with an additional 17 moons awaiting confirmation of their discovery -- that is a total of 67 moons!" class="layer" data-depth="1.00"><img class='animated rollIn center-block img-responsive' src="img/factAstronautS.png" alt=""/></li>
+							</ul>
+						</div>
+					</div>    					                         
 			<!-- <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button> -->
 						</div>
 					</div>
@@ -1353,17 +1377,37 @@
 							 <h3 class='animated pulse text-center'>Moons</h3>
 						</div>
 					</div>
-					<div class="row">
+					<div class="row padt3">
 						<div class="col-lg-4 col-lg-offset-2">
-							 <p class='padt10'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas scelerisque ac dui vel dignissim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras viverra sit amet elit efficitur consequat. Donec dignissim magna vitae justo tristique, ac laoreet nulla porta. Integer vel efficitur lorem. Donec semper lacinia lorem. Donec vel est a ipsum auctor maximus. Fusce ornare, dolor eget posuere lobortis, mi erat viverra eros, in porttitor lectus diam ac sem. Cras eu finibus magna, ac efficitur enim. Vivamus consectetur lacinia tortor. Donec sollicitudin porta nisi, ultrices consequat neque placerat ut. Morbi pharetra leo a ante ornare, eget imperdiet nulla lobortis. Nunc a commodo felis.</p>
-							 <img src="img/Meteor.png" alt="" class="img-responsive"/>
+							 <img id="europapic" src="img/moons/jupiter/europa.png" height="50%" width="50%" alt="Triton Moon Image" class="img-responsive moonImgs"/>
 						</div>
-						 <div class="col-lg-4">
-							 <img src="img/Meteor.png" alt="" class="img-responsive"/>
-							 <img src="img/Meteor.png" alt="" class="img-responsive"/>
-							 <img src="img/Meteor.png" alt="" class="img-responsive"/>
+						<div class="col-lg-4">							 
+							 <p class='moonTxt' id="europa" style="display: none">Europa</p>
 						</div>
-					</div>                         
+					</div>
+					<div class="row padt3">
+						<div class="col-lg-4 col-lg-offset-2">
+							 <img id="lopic" src="img/moons/jupiter/lo.png" height="50%" width="50%" alt="" class="img-responsive moonImgs"/>
+						</div>
+						<div class="col-lg-4">							 
+							 <p class='moonTxt' id="lo" style="display: none">Lo</p>
+						</div>
+					</div>
+					<div class="row padt3">
+						<div class="col-lg-4 col-lg-offset-2">
+							  <img id="ganymedepic" src="img/moons/jupiter/ganymede.png" height="50%" width="50%" alt="" class="img-responsive moonImgs"/>
+						</div>
+						<div class="col-lg-4">							 
+							 <p class='moonTxt' id="ganymede" style="display: none">Ganymede</p>
+						</div>
+					</div>
+					<div class="row padt3">
+						<div class="col-lg-4 col-lg-offset-4">
+							  <ul class='padt7' id='psceneJupiterMoons' data-limit-x="10">
+								<li id='juptierMoonAstro' data-toggle="popover" data-placement="top" data-content="Fun fact: Jupiter has 50 known moons, with an additional 17 moons awaiting confirmation of their discovery -- that is a total of 67 moons!" class="layer" data-depth="1.00"><img class='animated rollIn center-block img-responsive' src="img/factAstronautS.png" alt=""/></li>
+							</ul>
+						</div>
+					</div>    					
 			<!-- <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button> -->
 						</div>
 					</div>
@@ -1462,17 +1506,30 @@
 							 <h3 class='animated pulse text-center'>Moons</h3>
 						</div>
 					</div>
-					<div class="row">
+					<div class="row padt3">
 						<div class="col-lg-4 col-lg-offset-2">
-							 <p class='padt10'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas scelerisque ac dui vel dignissim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras viverra sit amet elit efficitur consequat. Donec dignissim magna vitae justo tristique, ac laoreet nulla porta. Integer vel efficitur lorem. Donec semper lacinia lorem. Donec vel est a ipsum auctor maximus. Fusce ornare, dolor eget posuere lobortis, mi erat viverra eros, in porttitor lectus diam ac sem. Cras eu finibus magna, ac efficitur enim. Vivamus consectetur lacinia tortor. Donec sollicitudin porta nisi, ultrices consequat neque placerat ut. Morbi pharetra leo a ante ornare, eget imperdiet nulla lobortis. Nunc a commodo felis.</p>
-							 <img src="img/Meteor.png" alt="" class="img-responsive"/>
+							 <img id="titanpic" src="img/moons/saturn/titan.png" height="50%" width="50%" alt="Triton Moon Image" class="img-responsive moonImgs"/>
 						</div>
-						 <div class="col-lg-4">
-							 <img src="img/Meteor.png" alt="" class="img-responsive"/>
-							 <img src="img/Meteor.png" alt="" class="img-responsive"/>
-							 <img src="img/Meteor.png" alt="" class="img-responsive"/>
+						<div class="col-lg-4">							 
+							 <p class='moonTxt' id="titan" style="display: none">Titan</p>
 						</div>
-					</div>                         
+					</div>
+					<div class="row padt3">
+						<div class="col-lg-4 col-lg-offset-2">
+							 <img id="enceladuspic" src="img/moons/saturn/enceladus.png" height="50%" width="50%" alt="" class="img-responsive moonImgs"/>
+						</div>
+						<div class="col-lg-4">							 
+							 <p class='moonTxt' id="enceladus" style="display: none">Enceladus</p>
+						</div>
+					</div>
+					<div class="row padt3">
+						<div class="col-lg-4 col-lg-offset-2">
+							  <img id="rheapic" src="img/moons/saturn/rhea.png" height="50%" width="50%" alt="" class="img-responsive moonImgs"/>
+						</div>
+						<div class="col-lg-4">							 
+							 <p class='moonTxt' id="rhea" style="display: none">Rhea</p>
+						</div>
+					</div>                               
 			<!-- <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button> -->
 						</div>
 					</div>
@@ -1571,17 +1628,30 @@
 							 <h3 class='animated pulse text-center'>Moons</h3>
 						</div>
 					</div>
-					<div class="row">
+					<div class="row padt3">
 						<div class="col-lg-4 col-lg-offset-2">
-							 <p class='padt10'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas scelerisque ac dui vel dignissim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras viverra sit amet elit efficitur consequat. Donec dignissim magna vitae justo tristique, ac laoreet nulla porta. Integer vel efficitur lorem. Donec semper lacinia lorem. Donec vel est a ipsum auctor maximus. Fusce ornare, dolor eget posuere lobortis, mi erat viverra eros, in porttitor lectus diam ac sem. Cras eu finibus magna, ac efficitur enim. Vivamus consectetur lacinia tortor. Donec sollicitudin porta nisi, ultrices consequat neque placerat ut. Morbi pharetra leo a ante ornare, eget imperdiet nulla lobortis. Nunc a commodo felis.</p>
-							 <img src="img/Meteor.png" alt="" class="img-responsive"/>
+							 <img id="arielpic" src="img/moons/uranus/ariel.png" height="50%" width="50%" alt="Triton Moon Image" class="img-responsive moonImgs"/>
 						</div>
-						 <div class="col-lg-4">
-							 <img src="img/Meteor.png" alt="" class="img-responsive"/>
-							 <img src="img/Meteor.png" alt="" class="img-responsive"/>
-							 <img src="img/Meteor.png" alt="" class="img-responsive"/>
+						<div class="col-lg-4">							 
+							 <p class='moonTxt' id="ariel" style="display: none">Ariel</p>
 						</div>
-					</div>                         
+					</div>
+					<div class="row padt3">
+						<div class="col-lg-4 col-lg-offset-2">
+							 <img id="oberonpic" src="img/moons/uranus/oberon.png" height="50%" width="50%" alt="" class="img-responsive moonImgs"/>
+						</div>
+						<div class="col-lg-4">							 
+							 <p class='moonTxt' id="oberon" style="display: none">Oberon</p>
+						</div>
+					</div>
+					<div class="row padt3">
+						<div class="col-lg-4 col-lg-offset-2">
+							  <img id="titaniapic" src="img/moons/uranus/titania.png" height="50%" width="50%" alt="" class="img-responsive moonImgs"/>
+						</div>
+						<div class="col-lg-4">							 
+							<p class="moonTxt" id="titania" style="display: none">Titania</p>
+						</div>
+					</div>                                  
 			<!-- <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button> -->
 						</div>
 					</div>
@@ -1640,8 +1710,8 @@
 							 <p class='padt10'>Neptune is a sister ice giant to Uranus. Neptune is mostly made of a very thick, very hot combination of water (H2O), ammonia (NH3), and methane (CH4) over a possible heavier, approximately Earth-sized, solid core.</p>
 							 <br />
 							<p>Neptune's atmosphere is made up mostly of hydrogen (H2), helium (He) and methane (CH4).</p>
-							<ul class='padt7' id='pscene11' data-limit-x="10">
-								<li id='neptuneAstro' data-toggle="popover" data-placement="top" data-content="Did you know: Voyager 2 is the only spacecraft to have visited Neptune." class="layer" data-depth="1.00"><img class='animated rollIn center-block img-responsive' src="img/factAstronautS.png" alt=""/></li>
+							<ul class='padt15' id='pscene11' data-limit-x="10">
+								<li id='neptuneAstro' data-toggle="popover" data-placement="top" data-content="Fun fact: Voyager 2 is the only spacecraft to have visited Neptune." class="layer" data-depth="1.00"><img class='animated rollIn center-block img-responsive' src="img/factAstronautS.png" alt=""/></li>
 							</ul>
 						</div>
 						 <div class="col-lg-3 col-lg-offset-2">
@@ -1690,17 +1760,30 @@
 							 <h3 class='animated pulse text-center'>Moons</h3>
 						</div>
 					</div>
-					<div class="row">
+					<div class="row padt3">
 						<div class="col-lg-4 col-lg-offset-2">
-							 <p class='padt10'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas scelerisque ac dui vel dignissim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras viverra sit amet elit efficitur consequat. Donec dignissim magna vitae justo tristique, ac laoreet nulla porta. Integer vel efficitur lorem. Donec semper lacinia lorem. Donec vel est a ipsum auctor maximus. Fusce ornare, dolor eget posuere lobortis, mi erat viverra eros, in porttitor lectus diam ac sem. Cras eu finibus magna, ac efficitur enim. Vivamus consectetur lacinia tortor. Donec sollicitudin porta nisi, ultrices consequat neque placerat ut. Morbi pharetra leo a ante ornare, eget imperdiet nulla lobortis. Nunc a commodo felis.</p>
-							 <img src="img/Meteor.png" alt="" class="img-responsive"/>
+							 <img id="tritonpic" src="img/moons/neptune/triton.png" height="50%" width="50%" alt="Triton Moon Image" class="img-responsive moonImgs"/>
 						</div>
-						 <div class="col-lg-4">
-							 <img src="img/Meteor.png" alt="" class="img-responsive"/>
-							 <img src="img/Meteor.png" alt="" class="img-responsive"/>
-							 <img src="img/Meteor.png" alt="" class="img-responsive"/>
+						<div class="col-lg-4">							 
+							 <p class='moonTxt' id="triton" style="display: none">Triton</p>
 						</div>
-					</div>                         
+					</div>
+					<div class="row padt3">
+						<div class="col-lg-4 col-lg-offset-2">
+							 <img id="nereidpic" src="img/moons/neptune/nereid.png" height="50%" width="50%" alt="" class="img-responsive moonImgs"/>
+						</div>
+						<div class="col-lg-4">							 
+							 <p class='moonTxt' id="nereid" style="display: none">Nereid</p>
+						</div>
+					</div>
+					<div class="row padt3">
+						<div class="col-lg-4 col-lg-offset-2">
+							  <img id="psamathepic" src="img/moons/neptune/psamathe.png" height="50%" width="50%" alt="" class="img-responsive moonImgs"/>
+						</div>
+						<div class="col-lg-4">							 
+							 <p class='moonTxt' id="psamathe" style="display: none">Psamathe</p>
+						</div>
+					</div>                       
 			<!-- <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button> -->
 						</div>
 					</div>
@@ -1818,6 +1901,8 @@
 	var pscene11 = document.getElementById('pscene11');
 	var parallax = new Parallax(pscene11);
 	
+	var psceneJupiterMoons = document.getElementById('psceneJupiterMoons');
+	var parallax = new Parallax(psceneJupiterMoons);
 	
 	
 	$('#leftAstro').popover({ trigger: "hover" });
@@ -1825,6 +1910,10 @@
 	$('#rightAstro').popover({ trigger: "hover" });
 	
 	$('#neptuneAstro').popover({ trigger: "hover" });
+	
+	$('#juptierMoonAstro').popover({ trigger: "hover" });
+	
+	
 	
 	
 	//audio scrolling code
@@ -1851,7 +1940,73 @@
 	
 	<!-- var s = skrollr.init(); -->
 	
-	
+	//jquery animation code for moon tab
+
+	//EARTH MOON
+	$( "#moonpic" ).click(function() {
+  	$( "#moon" ).slideToggle( "slow" );
+	});
+
+	//MARS MOONS
+	$( "#phobospic" ).click(function() {
+  	$( "#phobos" ).slideToggle( "slow" );
+	});
+
+	$( "#deimospic" ).click(function() {
+  	$( "#deimos" ).slideToggle( "slow" );
+	});
+
+	//JUPITER MOONS
+	$( "#europapic" ).click(function() {
+  	$( "#europa" ).slideToggle( "slow" );
+	});
+
+	$( "#lopic" ).click(function() {
+  	$( "#lo" ).slideToggle( "slow" );
+	});
+
+	$( "#ganymedepic" ).click(function() {
+  	$( "#ganymede" ).slideToggle( "slow" );
+	});
+
+	//SATURN MOONS
+	$( "#titanpic" ).click(function() {
+  	$( "#titan" ).slideToggle( "slow" );
+	});
+
+	$( "#enceladuspic" ).click(function() {
+  	$( "#enceladus" ).slideToggle( "slow" );
+	});
+
+	$( "#rheapic" ).click(function() {
+  	$( "#rhea" ).slideToggle( "slow" );
+	});
+
+	//URANUS MOONS
+	$( "#arielpic" ).click(function() {
+  	$( "#ariel" ).slideToggle( "slow" );
+	});
+
+	$( "#oberonpic" ).click(function() {
+  	$( "#oberon" ).slideToggle( "slow" );
+	});
+
+	$( "#titaniapic" ).click(function() {
+  	$( "#titania" ).slideToggle( "slow" );
+	});
+
+	//NEPTUNE MOONS
+	$( "#tritonpic" ).click(function() {
+  	$( "#triton" ).slideToggle( "slow" );
+	});
+
+	$( "#nereidpic" ).click(function() {
+  	$( "#nereid" ).slideToggle( "slow" );
+	});
+
+	$( "#psamathepic" ).click(function() {
+  	$( "#psamathe" ).slideToggle( "slow" );
+	});
 	 
 </script>
 
