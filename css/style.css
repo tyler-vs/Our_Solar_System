@@ -142,6 +142,7 @@ hr.small {
     margin: 0;
     padding: 0;
     list-style: none;
+	
 }
 
 .sidebar-nav li {
@@ -153,6 +154,7 @@ hr.small {
     display: block;
     text-decoration: none;
     color: #999;
+	
 }
 
 .sidebar-nav li a:hover {
@@ -838,6 +840,7 @@ footer .footer-below {
 	letter-spacing: .1em;
     font-size: 18px;
 	text-align: center;
+	color: #000;
 }
 
 /* quiz styles */
