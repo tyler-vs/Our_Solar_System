@@ -407,18 +407,19 @@ camera.position.y = 90;
 //
 // controls planet rotation speeds
 //
+var one = 0.001;
 
+sunGroup.rotation.y     += one;
+mercuryGroup.rotation.y += one + 58.65;
+venusGroup.rotation.y   += one + -243;
+earthGroup.rotation.y   += one;
+marsGroup.rotation.y    += 0.002 + 1.03;
+jupiterGroup.rotation.y += 0.002 + 0.41;
+saturnGroup.rotation.y  += 0.003 + 0.44;
+uranusGroup.rotation.y  += 0.002 + -0.72;
+neptuneGroup.rotation.y += 0.03 + 0.72;
 
-sunGroup.rotation.y += 0.001;
-mercuryGroup.rotation.y += 0.003;
-venusGroup.rotation.y += 0.01;
-earthGroup.rotation.y += 0.02;
-marsGroup.rotation.y += 0.002;
-jupiterGroup.rotation.y += 0.002;
-saturnGroup.rotation.y += 0.003;
-uranusGroup.rotation.y += 0.002;
-neptuneGroup.rotation.y += 0.03;
-
+// 0.44	-0.72*	0.72
 
 //
 // this will set up the different camera positionings for eeach planet
