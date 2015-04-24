@@ -117,8 +117,7 @@ camera.position.z = 3000; // sets to this if fails switch statement;
 scene = new THREE.Scene();
 light = new THREE.DirectionalLight( 0xffffff );
 light.position.set( 0, 0, 1 ).normalize();
-scene.add( light );
-
+scene.add( light ); 
 
 //
 // skipped shadowing part
@@ -409,15 +408,15 @@ camera.position.y = 90;
 //
 
 
-sunGroup.rotation.y += 0.001;
-mercuryGroup.rotation.y += 0.003;
-venusGroup.rotation.y += 0.01;
-earthGroup.rotation.y += 0.02;
+sunGroup.rotation.y += 0.002;
+mercuryGroup.rotation.y += 0.002;
+venusGroup.rotation.y += 0.002;
+earthGroup.rotation.y += 0.002;
 marsGroup.rotation.y += 0.002;
 jupiterGroup.rotation.y += 0.002;
-saturnGroup.rotation.y += 0.003;
+saturnGroup.rotation.y += 0.002;
 uranusGroup.rotation.y += 0.002;
-neptuneGroup.rotation.y += 0.03;
+neptuneGroup.rotation.y += 0.002;
 
 
 //
