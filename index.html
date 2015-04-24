@@ -64,35 +64,35 @@
     <nav id="sidebar-wrapper">
         <ul class="sidebar-nav bob">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-            <li class="sidebar-brand">
-                <a href="#top">Our Solar System</a>
+            <li class="sidebar-brand" onclick="document.getElementById('fly').play()">
+                <a href="#top" onclick="document.getElementById('fly').play()">Our Solar System</a>
             </li>
             <li class='navTxt'>
-                <a href="#sun"><img src="img/icons/sun.ico" width="40px" alt="" class="nav-icons img-responsive"/><p class="imgDescription">Sun</p></a>
+                <a href="#sun" onclick="document.getElementById('fly').play()"><img src="img/icons/sun.ico" width="40px" alt="" class="nav-icons img-responsive"/><p class="imgDescription">Sun</p></a>
             </li>
             <li class='navTxt'>
-                <a href="#mercury"><img src="img/icons/mercury.ico" width="40px" alt="" class="nav-icons img-responsive"/><p class="imgDescription">Mercury</p></a>
+                <a href="#mercury" onclick="document.getElementById('fly').play()"><img src="img/icons/mercury.ico" width="40px" alt="" class="nav-icons img-responsive"/><p class="imgDescription">Mercury</p></a>
             </li>
             <li class='navTxt'>
-                <a href="#venus"><img src="img/icons/venus.ico" width="40px" alt="" class="nav-icons img-responsive"/><p class="imgDescription">Venus</p></a>
+                <a href="#venus" onclick="document.getElementById('fly').play()"><img src="img/icons/venus.ico" width="40px" alt="" class="nav-icons img-responsive"/><p class="imgDescription">Venus</p></a>
             </li>
             <li class='navTxt'>
-                <a href="#earth"><img src="img/icons/earth.ico" width="40px" alt="" class="nav-icons img-responsive"/><p class="imgDescription">Earth</p></a>
+                <a href="#earth" onclick="document.getElementById('fly').play()"><img src="img/icons/earth.ico" width="40px" alt="" class="nav-icons img-responsive"/><p class="imgDescription">Earth</p></a>
             </li>
             <li class='navTxt'>
-                <a href="#mars"><img src="img/icons/mars.ico" width="40px" alt="" class="nav-icons img-responsive"/><p class="imgDescription">Mars</p></a>
+                <a href="#mars" onclick="document.getElementById('fly').play()"><img src="img/icons/mars.ico" width="40px" alt="" class="nav-icons img-responsive"/><p class="imgDescription">Mars</p></a>
             </li>
 			<li class='navTxt'>
-                <a href="#jupiter"><img src="img/icons/jupiter.ico" width="40px" alt="" class="nav-icons img-responsive"/><p class="imgDescription">Jupiter</p></a>
+                <a href="#jupiter" onclick="document.getElementById('fly').play()"><img src="img/icons/jupiter.ico" width="40px" alt="" class="nav-icons img-responsive"/><p class="imgDescription">Jupiter</p></a>
             </li>
             <li class='navTxt'>
-                <a href="#saturn"><img src="img/icons/saturn.ico" width="40px" alt="" class="nav-icons img-responsive"/><p class="imgDescription">Saturn</p></a>
+                <a href="#saturn" onclick="document.getElementById('fly').play()"><img src="img/icons/saturn.ico" width="40px" alt="" class="nav-icons img-responsive"/><p class="imgDescription">Saturn</p></a>
             </li>
             <li class='navTxt'>
-                <a href="#uranus"><img src="img/icons/uranus.ico" width="40px" alt="" class="nav-icons img-responsive"/><p class="imgDescription">Uranus</p></a>
+                <a href="#uranus" onclick="document.getElementById('fly').play()"><img src="img/icons/uranus.ico" width="40px" alt="" class="nav-icons img-responsive"/><p class="imgDescription">Uranus</p></a>
             </li>
             <li class='navTxt'>
-                <a  href="#neptune"><img src="img/icons/neptune.ico" width="40px" alt="" class="nav-icons img-responsive"/><p class="imgDescription">Neptune</p></a>
+                <a  href="#neptune" onclick="document.getElementById('fly').play()"><img src="img/icons/neptune.ico" width="40px" alt="" class="nav-icons img-responsive"/><p class="imgDescription">Neptune</p></a>
             </li>
 			
         </ul>
@@ -103,11 +103,16 @@
 	<div id="volume-toggle">
 		<audio loop id="soundTour" src="audio/Marmalade.mp3"></audio>
 		<button id="switch" type="button" class="btn btn-dark btn-lg showArchieved" onclick="document.getElementById('soundTour').muted=!document.getElementById('soundTour').muted"><span class="glyphicon glyphicon-volume-up"></span></button>
-	</div> 
+	</div>
 
 	<audio id='beep'> 
 	  <source src="audio/beep.mp3">
 	  <source src="audio/beep.ogg">
+	</audio>
+	
+	<audio id='fly'> 
+	  <source src="audio/fly.mp3">
+	  <source src="audio/fly.ogg">
 	</audio>
 	
 
