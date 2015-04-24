@@ -46,6 +46,10 @@ p {
 	font-size: 22px;
 }
 
+.tab-pane {
+	margin-right: 1%;	
+}
+
 .exploretxt {
     font-family: 'Coda', sans-serif;  
 	/* font-family: 'Inconsolata', ;  */
@@ -998,6 +1002,7 @@ button:active {
   */
 }
 
+
 .navTxt:hover .imgDescription {
   visibility: visible;
   opacity: 1;
@@ -1076,3 +1081,5 @@ button:active {
 	  -webkit-animation:move-clouds-back 200s linear infinite;
 	  animation:move-clouds-back 200s linear infinite;
 	} */
+	
+	

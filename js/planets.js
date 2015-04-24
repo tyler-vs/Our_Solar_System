@@ -115,9 +115,22 @@ camera = new THREE.PerspectiveCamera( 20, container.clientWidth / container.clie
 //          camera.position.z = 1800;
 camera.position.z = 3000; // sets to this if fails switch statement;
 scene = new THREE.Scene();
-light = new THREE.DirectionalLight( 0xffffff );
-light.position.set( 0, 0, 1 ).normalize();
-scene.add( light ); 
+/* light = new THREE.AmbientLight( 0x404040 );
+light.position.set( 0, 0, 1 ).normalize(); */
+/* scene.add( light );  */
+var spotLight = new THREE.SpotLight( 0xffffff );
+spotLight.position.set( 100, 1000, 5000 );
+
+spotLight.castShadow = true;
+
+spotLight.shadowMapWidth = 2024;
+spotLight.shadowMapHeight = 2024;
+
+spotLight.shadowCameraNear = 500;
+spotLight.shadowCameraFar = 4000;
+spotLight.shadowCameraFov = 30;
+
+scene.add( spotLight );
 
 //
 // skipped shadowing part
