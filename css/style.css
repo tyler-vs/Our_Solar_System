@@ -396,6 +396,7 @@ footer {
 /* New CSS */
 .spaceship {
 	position: fixed;
+	z-index: 1;
     top: 50%;
     left: 45%;
     margin-right: -50%;
