@@ -3,7 +3,7 @@ var $audio_element = $("audio");
 	
 	function addSound(){
 		var html_str = '';
-		html_str += '<source src="beep.mp4" type="audio/mp4" />';
+		html_str += '<source src="beep.mp3" type="audio/mp4" />';
 		html_str += '<source src="beep.ogg" type="audio/ogg" />';
 		$(html_str).appendTo($audio_element);
 	}

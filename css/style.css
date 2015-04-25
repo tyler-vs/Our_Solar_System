@@ -405,9 +405,6 @@ footer {
     left: 45%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-	-webkit-animation-iteration-count: infinite;
-	-moz-animation-iteration-count: infinite;
-	-ms-animation-iteration-count: infinite;
 }
 
 .littleMap {
@@ -954,20 +951,24 @@ button:active {
 
 .moonImgs:hover {
     /*background-color: rgba(255,255,255,0.1);*/
-	border-radius: 50%; 
+	/* border-radius: 50%; 
     border-style: dashed;
 	border-color: rgba(255,255,255,0.3);
-    border-width: 2px;
+    border-width: 2px; */
+	color: red;
 	opacity: 0.6;
 	filter: alpha(opacity=60);
 	-moz-opacity:0.6;
 	-khtml-opacity: 0.6; 
 	cursor: pointer;
-	/* -webkit-transition: all 0.4s ease 0s;
+	-ms-transform: rotate(4deg); /* IE 9 */
+    -webkit-transform: rotate(4deg); /* Chrome, Safari, Opera */
+    transform: rotate(4deg);
+	 -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
     -ms-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
-    transition: all 0.4s ease 0s; */
+    transition: all 0.4s ease 0s; 
 }
 
 .moonTxt {
@@ -1007,78 +1008,10 @@ button:active {
   opacity: 1;
 }
 
+.musicBy {
+	text-align: right;
+}
 
-
-	@keyframes move-twink-back {
-	    from {background-position:0 0;}
-	    to {background-position:-10000px 5000px;}
-	}
-	@-webkit-keyframes move-twink-back {
-	    from {background-position:0 0;}
-	    to {background-position:-10000px 5000px;}
-	}
-	@-moz-keyframes move-twink-back {
-	    from {background-position:0 0;}
-	    to {background-position:-10000px 5000px;}
-	}
-	@-ms-keyframes move-twink-back {
-	    from {background-position:0 0;}
-	    to {background-position:-10000px 5000px;}
-	}
-	 
-	/* @keyframes move-clouds-back {
-	    from {background-position:0 0;}
-	    to {background-position:10000px 0;}
-	}
-	@-webkit-keyframes move-clouds-back {
-	    from {background-position:0 0;}
-	    to {background-position:10000px 0;}
-	}
-	@-moz-keyframes move-clouds-back {
-	    from {background-position:0 0;}
-	    to {background-position:10000px 0;}
-	}
-	@-ms-keyframes move-clouds-back {
-	    from {background-position: 0;}
-	    to {background-position:10000px 0;}
-	} */
-	 
-	.stars, .twinkling, .clouds {
-	  position:absolute; 
-	  top:0;
-	  left:0;
-	  right:0;
-	  bottom:0;
-	  width:100%;
-	  height:100%;
-	  display:block;
-	}
-	 
-	/* .stars {
-	  background:#000 url(../img/intro2.jpg) repeat top center;
-	  z-index:0;
-	} */
-	 
-	.twinkling{
-	  background:transparent url(../img/intro2.jpg) repeat top center;
-	  z-index:0;
-	 
-	  -moz-animation:move-twink-back 200s linear infinite;
-	  -ms-animation:move-twink-back 200s linear infinite;
-	  -o-animation:move-twink-back 200s linear infinite;
-	  -webkit-animation:move-twink-back 200s linear infinite;
-	  animation:move-twink-back 200s linear infinite;
-	}
-	 
-	/* .clouds{
-	    background:transparent url(images/clouds.png) repeat top center;
-	    z-index:3;
-	 
-	  -moz-animation:move-clouds-back 200s linear infinite;
-	  -ms-animation:move-clouds-back 200s linear infinite;
-	  -o-animation:move-clouds-back 200s linear infinite;
-	  -webkit-animation:move-clouds-back 200s linear infinite;
-	  animation:move-clouds-back 200s linear infinite;
-	} */
-	
-	
+.resources {
+	text-align: left;
+}
