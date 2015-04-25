@@ -953,12 +953,11 @@ button:active {
 }
 
 .moonImgs:hover {
-	/* background-color: rgba(255,255,255,0.4);
-	border-radius: 50%; */
-	/* border-style: outset;
-	border-color: rgba(255,255,255,0.4);
-    border-width: 3px;
-	border-radius: 25%; */
+    /*background-color: rgba(255,255,255,0.1);*/
+	border-radius: 50%; 
+    border-style: dashed;
+	border-color: rgba(255,255,255,0.3);
+    border-width: 2px;
 	opacity: 0.6;
 	filter: alpha(opacity=60);
 	-moz-opacity:0.6;
