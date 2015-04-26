@@ -6,7 +6,7 @@ var config = liquidFillGaugeDefaultSettings();
 		config.waveTextColor = "#fff";
 		config.waveColor = "#fdae6b";
 		config.circleThickness = 0.2;
-		config.textVertPosition = 0.5;
+		config.textVertPosition = 0.7;
 		config.waveAnimateTime = 1000;
 		loadLiquidFillGauge("mercuryOxygen", 42, config);
 		var config1 = liquidFillGaugeDefaultSettings();

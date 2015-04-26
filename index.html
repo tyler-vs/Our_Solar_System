@@ -22,8 +22,7 @@
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 	<link href='http://fonts.googleapis.com/css?family=Coda' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Monda:400,700' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'> 
+	<link href='http://fonts.googleapis.com/css?family=Cousine:400,700' rel='stylesheet' type='text/css'>
 
 <!-- Custom CSS -->
 	<link href="css/style.css" rel="stylesheet">
@@ -138,10 +137,6 @@
 					<ul>
 						<li class="layer" data-depth="0.80" id='rightAstro' data-toggle="popover" data-placement="top" data-content="I hope you learn something new!"><img class='wow rotateIn center-block img-responsive' src="img/MKIIIS.png" alt=""/></li>
 					</ul>
-					 <!-- <div id="cf">
-					  <img class="bottom" src="img/EMU2.png" />
-					  <img class="wow fadeIn top" src="img/MKIIIS.png" />
-					</div> -->
 				</div>
 			</div>
 		</div>
@@ -162,9 +157,9 @@
 				</div>
 				<div class="col-lg-7">
 					<ul>
-						<li class="layer" data-depth="2.20"><img class='img-responsive' src="img/asteroids1.png"></li>
-						<li class="layer" data-depth="1.00"><img class='img-responsive' src="img/asteroids2.png"></li>
-						<li class="layer" data-depth="0.30"><img class='img-responsive' src="img/asteroids3.png"></li>
+						<li class="layer" data-depth="1.30"><img class='img-responsive' src="img/asteroids1.png"></li>
+						<li class="layer" data-depth="0.70"><img class='img-responsive' src="img/asteroids2.png"></li>
+						<li class="layer" data-depth="0.20"><img class='img-responsive' src="img/asteroids3.png"></li>
 					</ul>
 				</div>
 			</div>
@@ -175,27 +170,20 @@
 	<!-- intro2-->
     <section id="intro2" class="intro2">
         <div class="container-fluid" id="psceneSecondAsteroids" data-limit-x="0">
-			<div class="row padt10">
+			<div class="row padt5">
 				<div class="col-lg-7">
 					<ul>
-						<li class="layer" data-depth="2.20"><img class='img-responsive' src="img/asteroids1.png"></li>
-						<li class="layer" data-depth="1.00"><img class='img-responsive' src="img/asteroids2.png"></li>
-						<li class="layer" data-depth="0.30"><img class='img-responsive' src="img/asteroids5.png"></li>
+						<li class="layer" data-depth="0.20"><img class='img-responsive' src="img/asteroids1.png"></li>
+						<li class="layer" data-depth="0.90"><img class='img-responsive' src="img/asteroids3.png"></li>
 					</ul>
 				</div>
 				<div class="col-lg-4 wow fadeInUp">
-						<p>Many scientists think our solar system formed from a giant, rotating cloud of gas and dust known as the solar nebula. As the nebula collapsed because of its gravity, it spun faster and flattened into a disk. Most of the material was pulled toward the center to form the sun. Other particles within the disk collided and stuck together to form asteroid-sized objects named as planetesimals, some of which combined to become the asteroids, comets, moons and planets.</p>
+						<p>Many scientists think our solar system formed from a giant, rotating cloud of gas and dust known as the solar nebula. As the nebula collapsed because of its gravity, it spun faster and flattened into a disk. Most of the material was pulled toward the center to form the sun. Other particles within the disk collided and stuck together to form asteroid-sized objects named as planetesimals, some of which combined to become the asteroids, comets, moons, and planets.</p>
 				</div>
 				
 			</div>
 		</div>
     </section>
-		
-	
-
-	
-
-
 
    
 	<!-- Sun -->
@@ -212,7 +200,7 @@
 			        </div>
 				</div>
 				<div class="col-lg-6 col-lg-offset-2">
-					<div class="col-xs-9 padt20 wow fadeInUp">
+					<div class="col-xs-9 padt9 wow fadeInUp">
 					  <!-- Tab panes -->
 					  <div class="tab-content">
 						<div class="tab-pane active" id="sunSum">The sun is a star, a hot ball of glowing gases at the heart of our solar system. Its influence extends far beyond the orbits of distant Neptune and Pluto. Without the sun's intense energy and heat, there would be no life on Earth. And though it is special to us, there are billions of stars like our sun scattered across the Milky Way galaxy.</div>
@@ -222,7 +210,7 @@
 					  </div>
 					</div>
 
-					<div class="col-xs-3 padt20 wow fadeInDown"> <!-- required for floating -->
+					<div class="col-xs-3 padt9 wow fadeInDown"> <!-- required for floating -->
 					  <!-- Nav tabs -->
 					  <ul onclick="document.getElementById('beep').play()" class="nav nav-tabs tabs-right">
 						<li class="active"><a href="#Sum" data-toggle="tab">Summary</a></li>
@@ -246,18 +234,18 @@
 				<div class="col-lg-12">
 				   <ul>
 					  <li class="layer" data-depth="0.20"><img class='img-responsive' src="img/asteroids9.png"></li>
-					  <li class="layer" data-depth="1.50"><img class='img-responsive' src="img/asteroids8.png"></li>
+					  <li class="layer" data-depth="1.00"><img class='img-responsive' src="img/asteroids8.png"></li>
 					</ul>
 				</div>
 			</div>
 		</div>
 	</section>
     
-	 <section id="intro1" class="afterSun2">
+	<section id="intro1" class="afterSun2">
 		<div class="container-fluid">
-		   <div class="row padt10">
-				<div class="col-lg-4 col-lg-offset-1">
-					<img id="shuttlepic" src="img/shuttle.png" alt="" class="wow fadeInLeft img-responsive moonImgs" onclick="document.getElementById('beep').play()"/>
+		   <div class="row">
+				<div class="col-lg-4 col-lg-offset-1" id='psceneShuttle' data-limit-x="10">
+					 <li class="layer" data-depth="0.80"><img id="shuttlepic" src="img/shuttle.png" alt="" class="wow fadeInLeft img-responsive moonImgs" onclick="document.getElementById('beep').play()"/></li>
 				</div>
 			<div class="col-lg-5 col-lg-offset-1">							 
 				 <p class='moonTxt' id="shuttle" style="display: none"><strong>The Space Shuttle was a partially reusable low Earth orbital spacecraft system operated by the U.S. NASA. Its official program name was Space Transportation System, taken from a 1969 plan for a system of reusable spacecraft of which it was the only item funded for development. The first of four orbital test flights occurred in 1981, leading to operational flights beginning in 1982. They were used on a total of 135 missions from 1981 to 2011, launched from the Kennedy Space Center in Florida.</p>
@@ -283,23 +271,22 @@
 					<div class="wow fadeIn" id="container2"></div>
 				</div>
 				<div class="col-lg-6 col-lg-offset-2">
-					<div class="col-xs-9 padt20 wow fadeInUp">
+					<div class="col-xs-9 padt9 wow fadeInUp">
 					  <!-- Tab panes -->
 					  <div class="tab-content">
 						<div class="tab-pane active" id="mercurySum">Sun-scorched Mercury is only slightly larger than Earth's moon. Like the moon, Mercury has very little atmosphere to stop impacts and it is covered with craters. Mercury's dayside is super-heated by the sun, but at night temperatures drop hundreds of degrees below freezing. Ice may even exist in craters. Mercury's egg-shaped orbit takes it around the sun every 88 days.</div>
-						<div class="tab-pane" id="mercuryLoc">Distance in relations to other planets/visualizations</div>
+						<div class="tab-pane" id="mercuryLoc"></div>
 						<div class="tab-pane" id="mercuryComp"></div>
 						<!-- <div class="tab-pane" id="mercuryMoons"></div> -->
 					  </div>
 					</div>
 
-					<div class="col-xs-3 padt20 wow fadeInDown"> <!-- required for floating -->
+					<div class="col-xs-3 padt9 wow fadeInDown"> <!-- required for floating -->
 					  <!-- Nav tabs -->
 					  <ul onclick="document.getElementById('beep').play()" class="nav nav-tabs tabs-right">
 						<li class="active"><a href="#mercurySum" data-toggle="tab">Summary</a></li>
 						<li><a href="#modalMercuryLoc" class="portfolio-link" data-toggle="modal">Location</a></li>
 						<li><a href="#modalMercuryComp" class="portfolio-link" data-toggle="modal">Composition</a></li>
-						<!-- <li><a href="#modalMercuryMoons" class="portfolio-link" data-toggle="modal">Moons</a></li> -->
 					  </ul>
 					</div>
 			    </div>
@@ -311,15 +298,15 @@
 	
 	<!-- space -->
 
-    <section id="intro1" class="default"></section>
+    <section id="intro1" class="defaulth"></section>
     <section id="intro1" class="default">
 		<div class="container-fluid">
-		   <div class="row padt5">
-			<div class="col-lg-5 col-lg-offset-1">							 
+		   <div class="row">
+			<div class="col-lg-5 col-lg-offset-1 padt3">							 
 				 <p class='moonTxt' id="faith7" style="display: none">Merucry-Atlas 9 was the final manned space mission of the U.S Mercury program, launched on May 15th, 1963 from Cape Canaveral, Florida. The spacecraft, named <strong>Faith 7</strong>, completed 22 earth orbits before splashing down in the Pacific Ocean, piloted by astronaut Gordon Cooper, then an Air Force major.</p>
 			</div>
-			 <div class="col-lg-4 col-lg-offset-2">
-				 <img id="faith7pic" src="img/faith7.png" alt="" class="wow fadeInLeft img-responsive moonImgs" onclick="document.getElementById('beep').play()"/>
+			 <div class="col-lg-4 col-lg-offset-2" id='psceneFaith7' data-limit-x="10">
+				 <li class="layer" data-depth="0.80"><img id="faith7pic" src="img/faith7.png" alt="" class="wow fadeInLeft img-responsive moonImgs" onclick="document.getElementById('beep').play()"/></li>
 			 </div>
 		   </div>
 		</div>	
@@ -340,7 +327,7 @@
 					<div class="wow fadeIn" id="container3"></div>
 				</div>
 				<div class="col-lg-6 col-lg-offset-2">
-					<div class="col-xs-9 padt20 wow fadeInUp">
+					<div class="col-xs-9 padt9 wow fadeInUp">
 					  <!-- Tab panes -->
 					  <div class="tab-content">
 						<div class="tab-pane active" id="venusSum">Venus is a dim world of intense heat and volcanic activity. Similar in structure and size to Earth, Venus' thick, toxic atmosphere traps heat in a runaway 'greenhouse effect.' The scorched world has temperatures hot enough to melt lead. Glimpses below the clouds reveal volcanoes and deformed mountains. Venus spins slowly in the opposite direction of most planets.</div>
@@ -349,7 +336,7 @@
 						<div class="tab-pane" id="venusMoons"></div>
 					  </div>
 					</div>
-					<div class="col-xs-3 padt20 wow fadeInDown"> <!-- required for floating -->
+					<div class="col-xs-3 padt9 wow fadeInDown"> <!-- required for floating -->
 					  <!-- Nav tabs -->
 					  <ul onclick="document.getElementById('beep').play()" class="nav nav-tabs tabs-right">
 						<li class="active"><a href="#venusSum" data-toggle="tab">Summary</a></li>
@@ -367,9 +354,7 @@
 
 
 	<!-- space -->
-   <section id="intro1" class="default"></section>
-	
-	
+   <section id="intro1" class="defaulth"></section>
 	
     <section id="intro1" class="default">
 		<div class="container-fluid">
@@ -377,8 +362,8 @@
 			<div class="col-lg-5 col-lg-offset-1">							 
 				 <p class='moonTxt' id="hubble" style="display: none">For more than 15 years, the <strong>Hubble Space Telescope</strong> has been providing scientists and the public with spectacular images of deep space. One of the most technologically advanced pieces of equipment that humans have put into orbit, Hubble has helped researchers make important discoveries about our universe, ranging from planets and stars to galaxies and cosmology. Thanks to incredible efforts of scientists and engineers, the telescope has also given astronomers insight into the history and fate of our universe.</p>
 			</div>
-			 <div class="col-lg-4 col-lg-offset-2">
-				 <img id="hubblepic" src="img/hst.png" alt="" class="wow fadeInUp img-responsive moonImgs" onclick="document.getElementById('beep').play()"/>
+			 <div class="col-lg-4 col-lg-offset-2" id='psceneHubble' data-limit-x="10">
+				  <li class="layer" data-depth="0.80"><img id="hubblepic" src="img/hst.png" alt="" class="wow fadeInUp img-responsive moonImgs" onclick="document.getElementById('beep').play()"/></li>
 			 </div>
 		   </div>
 		</div>
@@ -404,7 +389,7 @@
 					<div class="wow fadeIn" id="container4"></div>
 				</div>
 				<div class="col-lg-6 col-lg-offset-2">
-					<div class="col-xs-9 padt20 wow fadeInUp">
+					<div class="col-xs-9 padt9 wow fadeInUp">
 					  <!-- Tab panes -->
 					  <div class="tab-content">
 						<div class="tab-pane active" id="earthSum">Earth, our home planet, is the only planet in our solar system known to harbor life - life that is incredibly diverse. All the things we need to survive exist under a thin layer of atmosphere that separates us from the cold, airless void of space.</div>
@@ -414,7 +399,7 @@
 					  </div>
 					</div>
 
-					<div class="col-xs-3 padt20 wow fadeInDown"> <!-- required for floating -->
+					<div class="col-xs-3 padt9 wow fadeInDown"> <!-- required for floating -->
 					  <!-- Nav tabs -->
 					  <ul onclick="document.getElementById('beep').play()" class="nav nav-tabs tabs-right">
 						<li class="active"><a href="#earthSum" data-toggle="tab">Summary</a></li>
@@ -434,8 +419,8 @@
     <section id="intro1" class="default">
 		<div class="container-fluid">
 		   <div class="row padt5">
-			<div class="col-lg-2 col-lg-offset-3">							 
-				 <img id="lunarModulepic" src="img/lunarlander.png" alt="" class="wow fadeInUp img-responsive moonImgs" onclick="document.getElementById('beep').play()"/>
+			<div class="col-lg-2 col-lg-offset-3" id='psceneLunar' data-limit-x="10">							 
+				 <li class="layer" data-depth="0.80"><img id="lunarModulepic" src="img/lunarlander.png" alt="" class="wow fadeInUp img-responsive moonImgs" onclick="document.getElementById('beep').play()"/></li>
 			</div>
 			 <div class="col-lg-5 col-lg-offset-1"> 
 				 <p class='moonTxt' id="lunarModule" style="display: none">The Apollo 11 Lunar Module (LM) "Eagle" was the first crewed vehicle to land on the Moon. It carried two astronauts, Commander Neil A. Armstrong and LM pilot Edwin E. "Buzz" Aldrin, Jr., the first men to walk on the Moon.</p>
@@ -450,8 +435,8 @@
 			<div class="col-lg-5 col-lg-offset-1">							 
 				 <p class='moonTxt' id="MGS" style="display: none"><strong>Mars Global Surveyor</strong> (MGS) was a US spacecraft developed by NASA’a Jet Propulsion Laboratory and launched November 1996. Mars Global Surveyor was a global mapping mission that examined the entire planet, from ionosphere down through the atmosphere to the surface. As part of a larger Mars Exploration Program, Mars Global Surveyor performed atmospheric monitoring for sister orbiters during aerobraking, and it helped rovers and lander missions by identifying potential landing sites and relaying surface telemetry. </p>
 			</div>
-			 <div class="col-lg-4 col-lg-offset-2">
-				 <img id="MGSpic" src="img/MGS.png" alt="" class="wow fadeInUp img-responsive moonImgs" onclick="document.getElementById('beep').play()"/>
+			 <div class="col-lg-4 col-lg-offset-2" id='psceneMGS' data-limit-x="10">
+				 <li class="layer" data-depth="0.80"><img id="MGSpic" src="img/MGS.png" alt="" class="wow fadeInUp img-responsive moonImgs" onclick="document.getElementById('beep').play()"/></li>
 			 </div>
 		   </div>
 		</div>
@@ -470,7 +455,7 @@
 					<div class="wow fadeIn" id="container5"></div>
 				</div>
 				<div class="col-lg-6 col-lg-offset-2">
-					<div class="col-xs-9 padt20 wow fadeInUp">
+					<div class="col-xs-9 padt9 wow fadeInUp">
 					  <!-- Tab panes -->
 					  <div class="tab-content">
 						<div class="tab-pane active" id="marsSum">Mars is a cold desert world. It is half the diameter of Earth and has the same amount of dry land. Like Earth, Mars has seasons, polar ice caps, volcanoes, canyons and weather, but its atmosphere is too thin for liquid water to exist for long on the surface. There are signs of ancient floods on Mars, but evidence for water now exists mainly in icy soil and thin clouds.</div>
@@ -480,7 +465,7 @@
 					  </div>
 					</div>
 
-					<div class="col-xs-3 padt20 wow fadeInDown"> <!-- required for floating -->
+					<div class="col-xs-3 padt9 wow fadeInDown"> <!-- required for floating -->
 					  <!-- Nav tabs -->
 					  <ul onclick="document.getElementById('beep').play()" class="nav nav-tabs tabs-right">
 						<li class="active"><a href="#marsSum" data-toggle="tab">Summary</a></li>
@@ -517,7 +502,6 @@
 			<div class="row">
 				<div class="col-lg-12">
 				   <ul>
-					  <li class="layer" data-depth="1.00"><img class='img-responsive' src="img/asteroids6.png"></li>
 					  <li class="layer" data-depth="0.60"><img class='img-responsive' src="img/asteroids8.png"></li>
 					  <li class="layer" data-depth="0.20"><img class='img-responsive' src="img/asteroids7.png"></li>
 					</ul>
@@ -526,7 +510,18 @@
 		</div>
     </section>
 	
-   
+	 <section class="default">
+		<div class="container-fluid" id="psceneAfterMars3" data-limit-x="0">
+			<div class="row">
+				<div class="col-lg-12">
+				   <ul>
+					  <li class="layer" data-depth="1.00"><img class='img-responsive' src="img/asteroids11.png"></li>
+					  <li class="layer" data-depth="0.60"><img class='img-responsive' src="img/asteroids6.png"></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+    </section>   
 
 
 	
@@ -543,7 +538,7 @@
 			    <div class="wow fadeIn" id="container6"></div>
 		     </div>
 		   <div class="col-lg-6 col-lg-offset-2">
-				<div class="col-xs-9 padt20 wow fadeInUp">
+				<div class="col-xs-9 padt9 wow fadeInUp">
 					  <!-- Tab panes -->
 					  <div class="tab-content">
 						<div class="tab-pane active" id="jupiterSum">The most massive planet in our solar system -- with dozens of moons and an enormous magnetic field -- Jupiter forms a kind of miniature solar system. It resembles a star in composition, but did not grow big enough to ignite. The planet's swirling cloud stripes are punctuated by massive storms such as the Great Red Spot, which has raged for hundreds of years.</div>
@@ -552,7 +547,7 @@
 						<div class="tab-pane" id="jupiterMoons"></div>
 					  </div>
 					</div>
-					<div class="col-xs-3 padt20 wow fadeInDown"> <!-- required for floating -->
+					<div class="col-xs-3 padt9 wow fadeInDown"> <!-- required for floating -->
 					  <!-- Nav tabs -->
 					  <ul onclick="document.getElementById('beep').play()" class="nav nav-tabs tabs-right">
 						<li class="active"><a href="#jupiterSum" data-toggle="tab">Summary</a></li>
@@ -568,18 +563,33 @@
     </section>
 	
     <!-- space -->
-    <section id="intro1" class="default">
-        
+    <section class="default">
+		<div class="container-fluid" id="psceneAfterJupiter" data-limit-x="0">
+			<div class="row">
+				<div class="col-lg-12">
+				   <ul>
+					  <li class="layer" data-depth="0.80"><img class='img-responsive' src="img/asteroids10.png"></li>
+					  <li class="layer" data-depth="0.20"><img class='img-responsive' src="img/asteroids11.png"></li>
+					</ul>
+				</div>
+			</div>
+		</div>
     </section>
 	
 
-    <section id="intro1" class="default">
-        
-    </section>
+     <section id="intro1" class="default">
+		<div class="container-fluid">
+		   <div class="row padt15">
+			<div class="col-lg-5 col-lg-offset-1 padt2">							 
+				 <p class='moonTxt' id="TDRS" style="display: none">Tracking and Data Relay Satellites (TDRS) are operated by the United States National Aeronautics and Space Administration, and are used for communication between NASA facilities and spacecraft, including the Space Shuttle, Hubble Space Telescope, and International Space Station.</p>
+			</div>
+			 <div class="col-lg-4 col-lg-offset-2" id='psceneTDRS' data-limit-x="10">
+				 <li class="layer" data-depth="0.80"><img id="TDRSpic" src="img/tdrs.png" alt="" class="wow fadeInLeft img-responsive moonImgs" onclick="document.getElementById('beep').play()"/></li>
+			 </div>
+		   </div>
+		</div>	
+	</section>
 	
-	<section id="intro1" class="default">
-        
-    </section>
 	
 	<!-- Saturn -->
     <section id="saturn" class="saturn">
@@ -594,7 +604,7 @@
 					<div class="wow fadeIn" id="container7"></div>
 				</div>
 				<div class="col-lg-6 col-lg-offset-2">
-					<div class="col-xs-9 padt20 wow fadeInDown">
+					<div class="col-xs-9 padt9 wow fadeInDown">
 					  <!-- Tab panes -->
 					  <div class="tab-content">
 						<div class="tab-pane active" id="jupiterSum">Adorned with thousands of beautiful ringlets, Saturn is unique among the planets. All four gas giant planets have rings -- made of chunks of ice and rock -- but none are as spectacular or as complicated as Saturn's. Like the other gas giants, Saturn is mostly a massive ball of hydrogen and helium.</div>
@@ -603,7 +613,7 @@
 					  </div>
 					</div>
 
-					<div class="col-xs-3 padt20 wow fadeInUp"> <!-- required for floating -->
+					<div class="col-xs-3 padt9 wow fadeInUp"> <!-- required for floating -->
 					  <!-- Nav tabs -->
 					  <ul onclick="document.getElementById('beep').play()" class="nav nav-tabs tabs-right">
 						<li class="active"><a href="#saturnSum" data-toggle="tab">Summary</a></li>
@@ -619,8 +629,17 @@
 	
     <!-- space -->
     <section id="intro1" class="default">
-        
-    </section>
+		<div class="container-fluid">
+		   <div class="row padt20">
+			<div class="col-lg-4 col-lg-offset-1">							 
+				 <li class="layer" data-depth="0.80"><img id="voyagerpic" src="img/voyager.png" alt="" class="wow fadeInRight img-responsive moonImgs" onclick="document.getElementById('beep').play()"/></li>
+			</div>
+			 <div class="col-lg-5 col-lg-offset-1 padt3" id='psceneVoyager' data-limit-x="10">				 
+				  <p class='moonTxt' id="voyager" style="display: none">The Voyager program is a continuing American scientific program that employs two robotic probes, Voyager 1 and Voyager 2, to study the outer solar system. They were launched in 1977 to take advantage of a favorable alignment of Jupiter, Saturn, Uranus, and Neptune, and are now exploring the outer boundary of the heliosphere.</p>
+			 </div>
+		   </div>
+		</div>	
+	</section>
 	
     <section id="intro1" class="default">
         
@@ -639,7 +658,7 @@
 					<div class="wow fadeIn" id="container8"></div>
 				</div>	
 				<div class="col-lg-6 col-lg-offset-2">
-					<div class="col-xs-9 padt20 wow fadeInUp">
+					<div class="col-xs-9 padt9 wow fadeInUp">
 					  <!-- Tab panes -->
 					  <div class="tab-content">
 						<div class="tab-pane active" id="uranusSum">Uranus is often the butt of a joke, maybe that's why it's so blue. All jokes aside, it is the only giant planet whose equator is nearly at right angles to its orbit. A collision with an Earth-sized object may explain the unique tilt. Nearly a twin in size to Neptune, Uranus has more methane in its mainly hydrogen and helium atmosphere than Jupiter or Saturn. Methane is the real reason Uranus has a blue tint.</div>
@@ -649,7 +668,7 @@
 					  </div>
 					</div>
 
-					<div class="col-xs-3 padt20 wow fadeInDown"> <!-- required for floating -->
+					<div class="col-xs-3 padt9 wow fadeInDown"> <!-- required for floating -->
 					  <!-- Nav tabs -->
 					  <ul onclick="document.getElementById('beep').play()" class="nav nav-tabs tabs-right">
 						<li class="active"><a href="#jupiterSum" data-toggle="tab">Summary</a></li>
@@ -665,8 +684,17 @@
 
 	<!-- space -->
     <section id="intro1" class="default">
-        
-    </section>
+		<div class="container-fluid padt20">
+		   <div class="row padt5">
+			<div class="col-lg-5 col-lg-offset-1 padt3">							 
+				 <p class='moonTxt' id="skylab" style="display: none"><strong>Skylab</strong>, the United States' first space station, was launched May 14, 1973, from the NASA Kennedy Space Center by a huge Saturn V launch vehicle, the moon rocket of the Apollo Space Program. Three manned missions to the station, conducted between 1973 and 1974 using the Apollo Command/Service Module (CSM) atop the smaller Saturn IB, each delivered a three-astronaut crew.</p>
+			</div>
+			 <div class="col-lg-4 col-lg-offset-2" id='psceneSkylab' data-limit-x="10">
+				 <li class="layer" data-depth="0.80"><img id="skylabpic" src="img/skylab.png" alt="" class="wow fadeInDown img-responsive moonImgs" onclick="document.getElementById('beep').play()"/></li>
+			 </div>
+		   </div>
+		</div>	
+	</section>
 	
 
     <section id="intro1" class="default">
@@ -686,7 +714,7 @@
 					<div class="wow fadeIn" id="container9"></div>
 				  </div>
 				  <div class="col-lg-6 col-lg-offset-2">
-					<div class="col-xs-9 padt20 wow fadeInUp">
+					<div class="col-xs-9 padt9 wow fadeInUp">
 					  <!-- Tab panes -->
 					  <div class="tab-content">
 						<div class="tab-pane active" id="neptuneSum">Dark, cold and whipped by supersonic winds, Neptune is the last of the hydrogen and helium gas giants in our solar system. More than 30 times as far from the sun as Earth, the planet takes almost 165 Earth years to orbit our sun. In 2011 Neptune completed its first orbit since its discovery in 1846.</div>
@@ -696,7 +724,7 @@
 					  </div>
 					</div>
 
-					<div class="col-xs-3 padt20 wow fadeInDown"> <!-- required for floating -->
+					<div class="col-xs-3 padt9 wow fadeInDown"> <!-- required for floating -->
 					  <!-- Nav tabs -->
 					  <ul onclick="document.getElementById('beep').play()" class="nav nav-tabs tabs-right">
 						<li class="active"><a href="#neptuneSum" data-toggle="tab">Summary</a></li>
@@ -718,11 +746,11 @@
 					<h2 class="wow fadeInLeft planetlabel">Quiz</h2>
 				 </div>
 			</div>
-			<div class="row">
-				  <div class="col-lg-4 col-lg-offset-1 padt3">
-						<quiz/>
+			<div class="row margl5">
+				  <div class="col-lg-5 padt3">
+						<div class='wow bounceIn delay1'><quiz/></div>
 				  </div>
-				  <div class="col-lg-4 col-lg-offset-2 wow fadeInUp padt3 tab-content"><p>POP QUIZ! Let's see how well you know our Solar System!</p></div>					
+				  <div class="col-lg-4 col-lg-offset-2 wow fadeInUp padt3 tab-content"><p>Let's see how well you know our Solar System!</p></div>					
 			      </div>
 			</div>
 	    </div>
@@ -730,7 +758,7 @@
 	
 	<section id="quiz" class="end">
 		<div class="container-fluid">
-			<div class="row padt3" id='psceneCreatedBy' data-limit-x="0">	
+			<div class="row padt3" id='psceneCreatedBy' data-limit-x="10">	
 				<div class="col-lg-4 col-lg-offset-4 text-center">
 					<ul>
 						<li class="layer" data-depth="0.70"><h2 class='wow fadeInUp'>Created by</h2></li>
@@ -740,26 +768,26 @@
 			<div class="row padt5" id='psceneNames' data-limit-x="0">
 				<div class="col-lg-4 endNames">
 					<ul>
-						<li class="layer" data-depth="2.20"><h3 class='wow fadeIn'>Joey Jensen</h3></li>
+						<li class="layer" data-depth="2.00"><h3 class='wow fadeIn delay1'>Joey Jensen</h3></li>
 					</ul>
 				</div>
 				<div class="col-lg-4 endNames">
 					<ul>
-						<li class="layer" data-depth="1.00"><h3 class='wow fadeIn'>John Panayiotou</h3></li>
+						<li class="layer text-center" data-depth="0.50"><h3 class='wow fadeIn delay2'>John Panayiotou</h3></li>
 					</ul>
 				</div>
 				<div class="col-lg-4 endNames">
 					<ul>
-						<li class="layer" data-depth="1.80"><h3 class='wow fadeIn'>Tyler Van Schaick</h3></li>
+						<li class="layer" data-depth="1.50"><h3 class='wow fadeIn delay3'>Tyler Van Schaick</h3></li>
 					</ul>
 				</div>
 			</div>
 			<div class="row padt5">
 				<div class="col-lg-6 resources">
-					<p>Information and resources from <a href='http://www.nasa.gov/' target="_blank">Nasa.gov</p></a>
+					<p class='smallFont'>Information and resources from <a href='http://www.nasa.gov/' target="_blank">NASA</p></a>
 				</div>
 				<div class="col-lg-6 musicBy">
-					<p>Audio by John Panayiotou</p>
+					<p class='smallFont'>Audio created by John Panayiotou</p>
 				</div>
 			</div>
 		</div>
@@ -785,7 +813,6 @@
 							
 						</div>
 					</div>                         
-			<!-- <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button> -->
 						</div>
 					</div>
 				</div>
@@ -803,7 +830,7 @@
 				<div class="container-fluid">
 					<div class="row compHud2">
 						<div class="col-lg-5 col-lg-offset-2">
-							<p class='padt10'>The sun is our star, it is a ball of gas that is held together by its own gravity. The is the center of the solar system and makes up 99.8% of the mass of the entire solar system.</p>
+							<p class='padt5'>The Sun is the center of the solar system and makes up 99.8% of the mass of the entire solar system.</p>
 							<br />
 							<p>The solar atmosphere is where we see features such as sunspots and solar flares on the sun. The sun's outer atmosphere -- the corona -- extends beyond the orbit of dwarf-planet Pluto.</p>
 							<ul class='padt15' id='psceneSunComp' data-limit-x="10">
@@ -812,23 +839,22 @@
 						</div>
 						 <div class="col-lg-2 col-lg-offset-1 atmosphere">
 							<h3>Atmosphere</h3>
-							<div class='padt5'>
-							 	<h4>Hydrogen</h3>
+							<div class='padt7'>
+							 	<p>Hydrogen</p>
 								<div class='svgpad'>
 									<svg id="sunHydrogen" width="100%" height="100%"></svg>
 								</div>
-								<h4>Helium</h3>
+								<p>Helium</p>
 								<div class='svgpad'>
 									<svg id="sunHelium" width="100%" height="100%"></svg>
 								</div>
-								<h4>Other</h3>
+								<p>Other</p>
 								<div class='svgpad'>
 									<svg id="sunOther" width="100%" height="100%"></svg>
 								</div>
 							</div>
 						</div>
 					</div>    
-			<!-- <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button> -->
 						</div>
 					</div>
 				</div>
@@ -846,9 +872,9 @@
 					</div>
 				</div>
 				<div class="container-fluid">
-					<div class="row padt5">
+					<div class="row padt7">
 						<div class="col-lg-4 col-lg-offset-4">
-							 <p class='padt10'>Mercury is the closest planet to the sun at a distance of about 58 million km (36 million miles) or 0.38 AU</p>
+							 <p>Mercury is the closest planet to the sun at a distance of about 58 million km (36 million miles) or 0.38 AU.</p>
 						</div>
 					</div>
 					<div class="row padt5">
@@ -856,7 +882,6 @@
 							 <iframe src="planets_D3_scales/mercury.html" width="625" height="50" scrolling="no" frameborder="0"></iframe>
 						</div>
 					</div>                         
-			<!-- <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button> -->
 						</div>
 					</div>
 				</div>
@@ -874,32 +899,31 @@
 				<div class="container-fluid">
 					<div class="row compHud2">
 						<div class="col-lg-5 col-lg-offset-2">
-							 <p class='padt10'>Mercury is a rocky planet, also known as a terrestrial planet. Mercury has a solid, cratered surface, much like Earth's moon.</p>
+							 <p>Mercury is a rocky planet, also known as a terrestrial planet. Mercury has a solid, cratered surface, much like Earth's moon.</p>
 							 <br />
-							 <p>Mercury's thin atmosphere, or exosphere, is composed mostly of oxygen (O2), sodium (Na), hydrogen (H2), helium (He), and potassium (K). Atoms that are blasted off the surface by the solar wind and micrometeoroid impacts create Mercury's exosphere.</p>
+							 <p>Mercury's thin atmosphere, or exosphere, is composed mostly of oxygen, sodium, hydrogen, helium, and potassium. Atoms that are blasted off the surface by the solar wind and micrometeoroid impacts create Mercury's exosphere.</p>
 							 <ul class='padt15' id='psceneMercuryComp' data-limit-x="10">
 								<li id='mercuryCompAstro' data-toggle="popover" data-placement="top" data-content="Standing on Mercury's surface at its closest point to the sun, the sun would appear more than three times larger than it does on Earth." class="layer" data-depth="1.00"><img class='animated rollIn center-block img-responsive' src="img/factAstronautS.png" alt=""/></li>
 							</ul>
 						</div>
 						 <div class="col-lg-2 col-lg-offset-1 atmosphere">
 							<h3>Atmosphere</h3>
-							<div class='padt5'>
-							 	<h4>Oxygen</h3>
+							<div class='padt7'>
+							 	<p>Oxygen</p>
 								<div class='svgpad'>
 									<svg id="mercuryOxygen" width="100%" height="100%"></svg>
 								</div>
-								<h4>Sodium</h3>
+								<p>Sodium</p>
 								<div class='svgpad'>
 									<svg id="mercurySodium" width="100%" height="100%"></svg>
 								</div>
-								<h4>Other</h3>
+								<p>Other</p>
 								<div class='svgpad'>
 									<svg id="mercuryOther" width="100%" height="100%"></svg>
 								</div>
 							</div>
 						</div>
 					</div>    
-			<!-- <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button> -->
 						</div>
 					</div>
 				</div>
@@ -917,9 +941,9 @@
 					</div>
 				</div>
 				<div class="container-fluid">
-					<div class="row padt5">
+					<div class="row padt7">
 						<div class="col-lg-4 col-lg-offset-4">
-							 <p class='padt10'>Venus is the second closest planet to the sun at a distance of about 108 million km (67 million miles) or 0.72 AU.</p>
+							 <p>Venus is the second closest planet to the sun at a distance of about 108 million km (67 million miles) or 0.72 AU.</p>
 						</div>
 					</div>
 					<div class="row padt5">
@@ -927,7 +951,6 @@
 							 <iframe src="planets_D3_scales/venus.html" width="625" height="50" scrolling="no" frameborder="0"></iframe>
 						</div>
 					</div>                 
-			<!-- <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button> -->
 						</div>
 					</div>
 				</div>
@@ -954,23 +977,22 @@
 						</div>
 						 <div class="col-lg-2 col-lg-offset-1 atmosphere">
 							<h3>Atmosphere</h3>
-							<div class='padt5'>
-							 	<h4>Carbon Dioxide</h3>
+							<div class='padt7'>
+							 	<p>Carbon Dioxide</p>
 								<div class='svgpad'>
 									<svg id="venusCarbon" width="100%" height="100%"></svg>
 								</div>
-								<h4>Nitrogen</h3>
+								<p>Nitrogen</p>
 								<div class='svgpad'>
 									<svg id="venusNitrogen" width="100%" height="100%"></svg>
 								</div>
-								<h4>Other</h3>
+								<p>Other</p>
 								<div class='svgpad'>
 									<svg id="venusOther" width="100%" height="100%"></svg>
 								</div>
 							</div>
 						</div>
 					</div>    
-			<!-- <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button> -->
 						</div>
 					</div>
 				</div>
@@ -988,9 +1010,9 @@
 					</div>
 				</div>
 				<div class="container-fluid">
-					<div class="row padt5">
+					<div class="row padt7">
 						<div class="col-lg-4 col-lg-offset-4">
-							 <p class='padt10'>Earth is the third planet from the sun at a distance of about 150 million km (93 million miles) or one AU.</p>
+							 <p>Earth is the third planet from the sun at a distance of about 150 million km (93 million miles) or 1 AU.</p>
 						</div>
 					</div>
 					<div class="row padt5">
@@ -998,7 +1020,6 @@
 							 <iframe src="planets_D3_scales/earth.html" width="625" height="50" scrolling="no" frameborder="0"></iframe>
 						</div>
 					</div>             
-			<!-- <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button> -->
 						</div>
 					</div>
 				</div>
@@ -1016,7 +1037,7 @@
 				<div class="container-fluid">
 					<div class="row compHud2">
 						<div class="col-lg-5 col-lg-offset-2">
-							<p class='padt5'>Earth is a rocky planet, also known as a terrestrial planet, with a solid and dynamic surface of mountains, valleys, canyons, plains and so much more. What makes Earth different from the other terrestrial planets is that it is also an ocean planet: 70 percent of the Earth's surface is covered in oceans.</p>
+							<p>Earth is a rocky planet, also known as a terrestrial planet, with a solid and dynamic surface of mountains, valleys, canyons, plains and so much more. What makes Earth different from the other terrestrial planets is that it is also an ocean planet: 70 percent of the Earth's surface is covered in oceans.</p>
 							<br />
 							<p>The Earth's atmosphere is made up of the perfect balance for us to breathe and live. Many planets have atmospheres, but only Earth's is breathable.</p>
 							<ul class='padt15' id='psceneEarthComp' data-limit-x="10">
@@ -1025,23 +1046,22 @@
 						</div>
 						 <div class="col-lg-2 col-lg-offset-1 atmosphere">
 							<h3>Atmosphere</h3>
-							<div class='padt5'>
-							 	<h4>Nitrogen</h3>
+							<div class='padt7'>
+							 	<p>Nitrogen</p>
 								<div class='svgpad'>
 									<svg id="earthNitrogen" width="100%" height="100%"></svg>
 								</div>
-								<h4>Oxygen</h3>
+								<p>Oxygen</p>
 								<div class='svgpad'>
 									<svg id="earthOxygen" width="100%" height="100%"></svg>
 								</div>
-								<h4>Other</h3>
+								<p>Other</p>
 								<div class='svgpad'>
 									<svg id="earthOther" width="100%" height="100%"></svg>
 								</div>
 							</div>
 						</div>
 					</div>    
-			<!-- <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button> -->
 						</div>
 					</div>
 				</div>
@@ -1070,11 +1090,10 @@
 					<div class="row padt3">
 						<div class="col-lg-4 col-lg-offset-4">
 							  <ul class='padt7' id='psceneEarthMoon' data-limit-x="10">
-								<li id='earthMoonAstro' data-toggle="popover" data-placement="top" data-content="More than 100 spacecrafts have been launched to explore the moon. It is the only celestial a body beyond Earth that has been visited by human beings (The Apollo Program)." class="layer" data-depth="1.00"><img class='animated rollIn center-block img-responsive' src="img/factAstronautS.png" alt=""/></li>
+								<li id='earthMoonAstro' data-toggle="popover" data-placement="top" data-content="More than 100 spacecrafts have been launched to explore the moon. It is the only celestial body beyond Earth that has been visited by human beings (The Apollo Program)." class="layer" data-depth="1.00"><img class='animated rollIn center-block img-responsive' src="img/factAstronautS.png" alt=""/></li>
 							</ul>
 						</div>
 					</div>    		
-			<!-- <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button> -->
 						</div>
 					</div>
 				</div>
@@ -1091,9 +1110,9 @@
 					</div>
 				</div>
 				<div class="container-fluid">
-					<div class="row padt5">
+					<div class="row padt7">
 						<div class="col-lg-4 col-lg-offset-4">
-							 <p class='padt10'>Mars orbits our sun, a star. Mars is the fourth planet from the sun at a distance of about 228 million km (142 million miles) or 1.52 AU.</p>
+							 <p>Mars is the fourth planet from the sun at a distance of about 228 million km (142 million miles) or 1.52 AU.</p>
 						</div>
 					</div>
 					<div class="row padt5">
@@ -1101,7 +1120,6 @@
 							 <iframe src="planets_D3_scales/mars.html" width="625" height="50" scrolling="no" frameborder="0"></iframe>
 						</div>
 					</div>                  
-			<!-- <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button> -->
 						</div>
 					</div>
 				</div>
@@ -1119,32 +1137,31 @@
 				<div class="container-fluid">
 					<div class="row compHud2">
 						<div class="col-lg-5 col-lg-offset-2">
-							<p class='padt10'>Mars is a rocky planet, also known as a terrestrial planet. Mars' solid surface has been altered by volcanoes, impacts, crustal movement, and atmospheric effects such as dust storms.</p>
+							<p>Mars is a rocky planet, also known as a terrestrial planet. Mars' solid surface has been altered by volcanoes, impacts, crustal movement, and atmospheric effects such as dust storms.</p>
 							<br />
-							<p>Mars has a thin atmosphere made up mostly of carbon dioxide (CO2), nitrogen (N2) and argon (Ar).</p>
+							<p>Mars has a thin atmosphere made up mostly of carbon dioxide, nitrogen, and argon.</p>
 							<ul class='padt15' id='psceneMarsComp' data-limit-x="10">
 								<li id='marsCompAstro' data-toggle="popover" data-placement="top" data-content=" Mars is known as the Red Planet because iron minerals in the Martian soil oxidize, or rust, causing the soil -- and the dusty atmosphere -- to look red." class="layer" data-depth="1.00"><img class='animated rollIn center-block img-responsive' src="img/factAstronautS.png" alt=""/></li>
 							</ul>
 						</div>
 						 <div class="col-lg-2 col-lg-offset-1 atmosphere">
 							<h3>Atmosphere</h3>
-							<div class='padt5>
-							 	<h4>Carbon Dioxide</h3>
+							<div class='padt7'>
+							 	<p>Carbon Dioxide</p>
 								<div class='svgpad'>
 									<svg id="marsCarbonDioxide" width="100%" height="100%"></svg>
 								</div>
-								<h4>Nitrogen</h3>
+								<p>Nitrogen</p>
 								<div class='svgpad'>
 									<svg id="marsNitrogen" width="100%" height="100%"></svg>
 								</div>
-								<h4>Other</h3>
+								<p>Other</p>
 								<div class='svgpad'>
 									<svg id="marsOther" width="100%" height="100%"></svg>
 								</div>
 							</div>
 						</div>
 					</div>    
-			<!-- <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button> -->
 						</div>
 					</div>
 				</div>
@@ -1164,26 +1181,25 @@
 						<div class="col-lg-4 col-lg-offset-2">
 							 <img id="phobospic" src="img/moons/mars/phobos2.png" alt="Triton Moon Image" class="img-responsive moonImgs center-block" onclick="document.getElementById('beep').play()"/>
 						</div>
-						<div class="col-lg-5">							 
-							 <p class='moonTxt' id="phobos" style="display: none"><strong>Phobos</strong> is the larger of Mars two moons. It orbits Mars three times a day, and is so close to the planet’s surface that in some locations on Mars it cannot always be seen. Like Deimos, Phobos is composed of C-type rock that is similar to blackish carbonaceous chondrite asteroids.</p>
+						<div class="col-lg-5 padt3">							 
+							 <p class='moonTxt' id="phobos" style="display: none"><strong>Phobos</strong> is the larger of Mars' two moons. It orbits Mars three times a day, and is so close to the planet’s surface that in some locations on Mars it cannot always be seen. Like Deimos, Phobos is composed of C-type rock that is similar to blackish carbonaceous chondrite asteroids.</p>
 						</div>
 					</div>
 					<div class="row padt3">
 						<div class="col-lg-4 col-lg-offset-2">
 							 <img id="deimospic" src="img/moons/mars/deimos2.png" alt="" class="img-responsive moonImgs center-block" onclick="document.getElementById('beep').play()"/>
 						</div>
-						<div class="col-lg-5">							 
+						<div class="col-lg-5 padt1">							 
 							 <p class='moonTxt' id="deimos" style="display: none"><strong>Deimos</strong> is the smaller of Mars’ two moons and whirls around Mars every 30 hours. Deimos is small lumpy, heavily cratered object. Deimos is a dark body that appears to be composed of C-type surface materials, similar to that of asteroids found in the outer asteroid belt.</p>
 						</div>
 					</div>
 					<div class="row padt3">
 						<div class="col-lg-4 col-lg-offset-4">
 							<ul class='padt7' id='psceneMarsMoon' data-limit-x="10">
-								<li id='marsMoonAstro' data-toggle="popover" data-placement="top" data-content="Mars' two small moons may be captured asteroids. Potato-shaped, they have too little mass for gravity to make them spherical." class="layer" data-depth="1.00"><img class='animated rollIn center-block img-responsive' src="img/factAstronautS.png" alt=""/></li>
+								<li id='marsMoonAstro' data-toggle="popover" data-placement="top" data-content="Mars' two small moons may be captured asteroids. Potato-shaped, they don't have enough mass for gravity to make them spherical." class="layer" data-depth="1.00"><img class='animated rollIn center-block img-responsive' src="img/factAstronautS.png" alt=""/></li>
 							</ul>
 						</div>
 					</div>    					                         
-			<!-- <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button> -->
 						</div>
 					</div>
 				</div>
@@ -1200,9 +1216,9 @@
 					</div>
 				</div>
 				<div class="container-fluid">
-					<div class="row padt5">
+					<div class="row padt7">
 						<div class="col-lg-4 col-lg-offset-4">
-							 <p class='padt10'>Jupiter orbits our sun, a star. Jupiter is the fifth planet from the sun at a distance of about 778 million km (484 million miles) or 5.2 AU.</p>
+							 <p>Jupiter is the fifth planet from the sun at a distance of about 778 million km (484 million miles) or 5.2 AU.</p>
 						</div>
 					</div>
 					<div class="row padt5">
@@ -1210,7 +1226,6 @@
 							 <iframe src="planets_D3_scales/jupiter.html" width="625" height="50" scrolling="no" frameborder="0"></iframe>
 						</div>
 					</div>                
-			<!-- <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button> -->
 						</div>
 					</div>
 				</div>
@@ -1228,32 +1243,31 @@
 				<div class="container-fluid">
 					<div class="row compHud2">
 						<div class="col-lg-5 col-lg-offset-2">
-							<p class='padt15'>Jupiter is a gas-giant planet and therefore does not have a solid surface. However, it is predicted that Jupiter has an inner, solid core about the size of the Earth.</p>
+							<p class='padt7'>Jupiter is a gas-giant planet and therefore does not have a solid surface. However, it is predicted that Jupiter has an inner, solid core about the size of the Earth.</p>
 							<br />
-							<p>Jupiter's atmosphere is made up mostly of hydrogen (H2) and helium (He).</p>
+							<p>Jupiter's atmosphere is made up mostly of hydrogen and helium.</p>
 							<ul class='padt15' id='psceneJupiterComp' data-limit-x="10">
 								<li id='jupiterCompAstro' data-toggle="popover" data-placement="top" data-content=" Jupiter's Great Red Spot is a gigantic storm (bigger than Earth) that has been raging for hundreds of years." class="layer" data-depth="1.00"><img class='animated rollIn center-block img-responsive' src="img/factAstronautS.png" alt=""/></li>
 							</ul>
 						</div>
 						 <div class="col-lg-2 col-lg-offset-1 atmosphere">
 							<h3>Atmosphere</h3>
-							<div class='padt5'>
-							 	<h4>Hydrogen</h3>
+							<div class='padt7'>
+							 	<p>Hydrogen</p>
 								<div class='svgpad'>
 									<svg id="jupiterHydrogen" width="100%" height="100%"></svg>
 								</div>
-								<h4>Helium</h3>
+								<p>Helium</p>
 								<div class='svgpad'>
 									<svg id="jupiterHelium" width="100%" height="100%"></svg>
 								</div>
-								<h4>Other</h3>
+								<p>Other</p>
 								<div class='svgpad'>
 									<svg id="jupiterOther" width="100%" height="100%"></svg>
 								</div>
 							</div>
 						</div>
 					</div>    
-			<!-- <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button> -->
 						</div>
 					</div>
 				</div>
@@ -1273,7 +1287,7 @@
 						<div class="col-lg-4 col-lg-offset-2">
 							 <img id="europapic" src="img/moons/jupiter/europa2.png" alt="Triton Moon Image" class="img-responsive moonImgs center-block" onclick="document.getElementById('beep').play()"/>
 						</div>
-						<div class="col-lg-4">							 
+						<div class="col-lg-5 padt2">							 
 							 <p class='moonTxt' id="europa" style="display: none"><strong>Europa</strong> is an icy world slightly smaller than Earth's moon. It is unique in the solar system, being thought to have a global ocean of water in contact with a rocky seafloor. If the ocean is proven to exist, Europa could be a promising place to look for life beyond Earth.</p>
 						</div>
 					</div>
@@ -1281,15 +1295,15 @@
 						<div class="col-lg-4 col-lg-offset-2">
 							 <img id="lopic" src="img/moons/jupiter/lo2.png" alt="" class="img-responsive moonImgs center-block" onclick="document.getElementById('beep').play()"/>
 						</div>
-						<div class="col-lg-4">							 
-							 <p class='moonTxt' id="lo" style="display: none">Looking like a giant pizza covered with melted cheese and splotches of tomato and ripe olives, <strong>Lo</strong> is the most volcanically active body in the solar system. Volcanic plumes rise 300 km (190 miles) above the surface, with material spewing out at nearly half the required escape velocity.</p>
+						<div class="col-lg-5 padt2">							 
+							 <p class='moonTxt' id="lo" style="display: none"><strong>Lo</strong> is the most volcanically active body in the solar system. Volcanic plumes rise 300 km (190 miles) above the surface, with material spewing out at nearly half the required escape velocity. It also looks like a giant pizza covered with melted cheese and splotches of tomato and ripe olives. Yum.</p>
 						</div>
 					</div>
 					<div class="row padt3">
 						<div class="col-lg-4 col-lg-offset-2">
 							  <img id="ganymedepic" src="img/moons/jupiter/ganymede2.png" alt="" class="img-responsive moonImgs center-block" onclick="document.getElementById('beep').play()"/>
 						</div>
-						<div class="col-lg-4">							 
+						<div class="col-lg-5 padt2">							 
 							 <p class='moonTxt' id="ganymede" style="display: none"><strong>Ganymede</strong> is the largest satellite in our solar system. It is larger than Mercury and Pluto, and three-quarters the size of Mars. If Ganymede orbited the sun instead of orbiting Jupiter, it would easily be classified as a planet.</p>
 						</div>
 					</div>
@@ -1300,7 +1314,6 @@
 							</ul>
 						</div>
 					</div>    					
-			<!-- <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button> -->
 						</div>
 					</div>
 				</div>
@@ -1317,9 +1330,9 @@
 					</div>
 				</div>
 				<div class="container-fluid">
-					<div class="row padt5">
+					<div class="row padt7">
 						<div class="col-lg-4 col-lg-offset-4">
-							 <p class='padt10'>Saturn orbits our sun, a star. Saturn is the sixth planet from the sun at a distance of about 1.4 billion km (886 million miles) or 9.5 AU.</p>
+							 <p>Saturn is the sixth planet from the sun at a distance of about 1.4 billion km (886 million miles) or 9.5 AU.</p>
 						</div>
 					</div>
 					<div class="row padt5">
@@ -1327,7 +1340,6 @@
 							 <iframe src="planets_D3_scales/saturn.html" width="625" height="50" scrolling="no" frameborder="0"></iframe>
 						</div>
 					</div>              
-			<!-- <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button> -->
 						</div>
 					</div>
 				</div>
@@ -1345,30 +1357,29 @@
 				<div class="container-fluid">
 					<div class="row compHud2">
 						<div class="col-lg-5 col-lg-offset-2">
-							<p class='padt15'>Saturn is a gas-giant planet and does not have a solid surface. Its atmosphere is made up mostly of hydrogen (H2) and helium (He).</p>
+							<p class='padt15'>Saturn is a gas-giant planet and does not have a solid surface. Its atmosphere is made up mostly of hydrogen and helium.</p>
 							<ul class='padt20' id='psceneSaturnComp' data-limit-x="10">
 								<li id='saturnCompAstro' data-toggle="popover" data-placement="top" data-content=" Saturn has the most spectacular ring system of all our solar system's planets. It is made up of seven rings with several gaps and divisions between them." class="layer" data-depth="1.00"><img class='animated rollIn center-block img-responsive' src="img/factAstronautS.png" alt=""/></li>
 							</ul>
 						</div>
 						 <div class="col-lg-2 col-lg-offset-1 atmosphere">
 							<h3>Atmosphere</h3>
-							<div class='padt5'>
-							 	<h4>Hydrogen</h3>
+							<div class='padt7'>
+							 	<p>Hydrogen</p>
 								<div class='svgpad'>
 									<svg id="saturnHydrogen" width="100%" height="100%"></svg>
 								</div>
-								<h4>Helium</h3>
+								<p>Helium</p>
 								<div class='svgpad'>
 									<svg id="saturnHelium" width="100%" height="100%"></svg>
 								</div>
-								<h4>Other</h3>
+								<p>Other</p>
 								<div class='svgpad'>
 									<svg id="saturnOther" width="100%" height="100%"></svg>
 								</div>
 							</div>
 						</div>
 					</div>    
-			<!-- <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button> -->
 						</div>
 					</div>
 				</div>
@@ -1388,7 +1399,7 @@
 						<div class="col-lg-4 col-lg-offset-2">
 							 <img id="titanpic" src="img/moons/saturn/titan2.png" alt="Triton Moon Image" class="img-responsive moonImgs center-block" onclick="document.getElementById('beep').play()"/>
 						</div>
-						<div class="col-lg-4">							 
+						<div class="col-lg-5 padt2">							 
 							 <p class='moonTxt' id="titan" style="display: none"><strong>Titan</strong> is Saturn's largest moon. It is surrounded by a thick, golden haze, and only certain kinds of telescopes and cameras can see through the haze to the surface. Titan is of great interest to scientists because it has flowing liquids on its surface and a dense, complex atmosphere.</p>
 						</div>
 					</div>
@@ -1396,7 +1407,7 @@
 						<div class="col-lg-4 col-lg-offset-2">
 							 <img id="enceladuspic" src="img/moons/saturn/enceladus2.png" alt="" class="img-responsive moonImgs center-block" onclick="document.getElementById('beep').play()"/>
 						</div>
-						<div class="col-lg-4">							 
+						<div class="col-lg-5 padt2">							 
 							 <p class='moonTxt' id="enceladus" style="display: none"><strong>Enceladus</strong> is only 500 kilometers (310 miles) in diameter, but despite its petite size, it's one of the most scientifically compelling bodies in our solar system. It is quite similar in size to Mimas, but has a smoother, brighter surface. Enceladus reflects almost 100 percent of the sunlight that strikes it.</p>
 						</div>
 					</div>
@@ -1404,7 +1415,7 @@
 						<div class="col-lg-4 col-lg-offset-2">
 							  <img id="rheapic" src="img/moons/saturn/rhea2.png" alt="" class="img-responsive moonImgs center-block" onclick="document.getElementById('beep').play()"/>
 						</div>
-						<div class="col-lg-4">							 
+						<div class="col-lg-5 padt2">							 
 							 <p class='moonTxt' id="rhea" style="display: none"><strong>Rhea</strong> is the second largest moon of Saturn. Rhea has a small, cold, airless body that is very similar to sister moons Dione and Tethys. Rhea’s density of 1.233 times that of liquid water suggest that Rhea is three quarters ice and one quarter rock. Giovanni Cassini discovered Rhea on the 23rd of December 1672.</p>
 						</div>
 					</div>
@@ -1415,7 +1426,6 @@
 							</ul>
 						</div>
 					</div>
-			<!-- <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button> -->
 						</div>
 					</div>
 				</div>
@@ -1432,9 +1442,9 @@
 					</div>
 				</div>
 				<div class="container-fluid">
-					<div class="row padt5">
+					<div class="row padt7">
 						<div class="col-lg-4 col-lg-offset-4">
-							 <p class='padt10'>Uranus orbits our sun, a star. Uranus is the seventh planet from the sun at a distance of about 2.9 billion km (1.8 billion miles) or 19.18 AU.</p>
+							 <p>Uranus is the seventh planet from the sun at a distance of about 2.9 billion km (1.8 billion miles) or 19.18 AU.</p>
 						</div>
 					</div>
 					<div class="row padt5">
@@ -1442,7 +1452,6 @@
 							 <iframe src="planets_D3_scales/uranus.html" width="625" height="50" scrolling="no" frameborder="0"></iframe>
 						</div>
 					</div>            
-			<!-- <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button> -->
 						</div>
 					</div>
 				</div>
@@ -1460,32 +1469,31 @@
 				<div class="container-fluid">
 					<div class="row compHud2">
 						<div class="col-lg-5 col-lg-offset-2">
-							<p class='padt10'>Uranus is an ice giant. Most (80 percent or more) of the planet's mass is made up of a hot dense fluid of "icy" materials – water (H2O), methane (CH4). and ammonia (NH3) – above a small rocky core.</p>
+							<p class='padt5'>Uranus is an ice giant. Most of the planet's mass is made up of a hot dense fluid of "icy" materials – water, methane, and ammonia – above a small rocky core.</p>
 							<br />
-							<p>Uranus has an atmosphere which is mostly made up of hydrogen (H2) and helium (He), with a small amount of methane (CH4).</p>
+							<p>Uranus has an atmosphere which is mostly made up of hydrogen and helium, with a small amount of methane.</p>
 							<ul class='padt15' id='psceneUranusComp' data-limit-x="10">
 								<li id='uranusCompAstro' data-toggle="popover" data-placement="top" data-content="Unlike any of the other planets, Uranus rotates on its side, which means it spins horizontally." class="layer" data-depth="1.00"><img class='animated rollIn center-block img-responsive' src="img/factAstronautS.png" alt=""/></li>
 							</ul>
 						</div>
 						 <div class="col-lg-2 col-lg-offset-1 atmosphere">
 							<h3>Atmosphere</h3>
-							<div class='padt5'>
-							 	<h4>Hydrogen</h3>
+							<div class='padt7'>
+							 	<p>Hydrogen</p>
 								<div class='svgpad'>
 									<svg id="uranusHydrogen" width="100%" height="100%"></svg>
 								</div>
-								<h4>Helium</h3>
+								<p>Helium</p>
 								<div class='svgpad'>
 									<svg id="uranusHelium" width="100%" height="100%"></svg>
 								</div>
-								<h4>Other</h3>
+								<p>Other</p>
 								<div class='svgpad'>
 									<svg id="uranusOther" width="100%" height="100%"></svg>
 								</div>
 							</div>
 						</div>
 					</div>    
-			<!-- <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button> -->
 						</div>
 					</div>
 				</div>
@@ -1505,7 +1513,7 @@
 						<div class="col-lg-4 col-lg-offset-2">
 							 <img id="arielpic" src="img/moons/uranus/ariel2.png" alt="Ariel Moon Image" class="img-responsive moonImgs center-block" onclick="document.getElementById('beep').play()"/>
 						</div>
-						<div class="col-lg-4">							 
+						<div class="col-lg-5 padt2">							 
 							 <p class='moonTxt' id="ariel" style="display: none"><strong>Ariel</strong> has the brightest surface of the five largest Uranian moons. Ariel is thought to consist mostly of roughly equal amounts of water ice and silicate rock. Carbon Dioxide had also been detected on Ariel. Ariel keeps the same face toward Uranus as it orbits the planet (just as our Moon keeps the same face always toward Earth).</p>
 						</div>
 					</div>
@@ -1513,7 +1521,7 @@
 						<div class="col-lg-4 col-lg-offset-2">
 							 <img id="oberonpic" src="img/moons/uranus/oberon2.png" alt="" class="img-responsive moonImgs center-block" onclick="document.getElementById('beep').play()"/>
 						</div>
-						<div class="col-lg-4">							 
+						<div class="col-lg-5 padt2">							 
 							 <p class='moonTxt' id="oberon" style="display: none"><strong>Oberon</strong> is the second largest moon of Uranus. Discovered in 1787 by William Herschel, little was known about this moon until Voyager 2 passed it during its flyby of Uranus in January 1986. Oberon is composed of roughly half ice and half rock and has at least one large mountain that rises about 6 km off the surface.</p>
 						</div>
 					</div>
@@ -1521,7 +1529,7 @@
 						<div class="col-lg-4 col-lg-offset-2">
 							  <img id="titaniapic" src="img/moons/uranus/titania2.png" alt="" class="img-responsive moonImgs center-block" onclick="document.getElementById('beep').play()"/>
 						</div>
-						<div class="col-lg-4">							 
+						<div class="col-lg-5 padt2">							 
 							<p class="moonTxt" id="titania" style="display: none"><strong>Titania</strong> is Uranus’ largest moon. The moon is about 1,600 km (1,000 miles) in diameter with the neutral gray color typical of most of the significant Uranian moons. Titania was discovered on the 11th of January 1787 by British astronomer William Herschel.</p>
 						</div>
 					</div>
@@ -1532,7 +1540,6 @@
 							</ul>
 						</div>
 					</div>
-			<!-- <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button> -->
 						</div>
 					</div>
 				</div>
@@ -1549,9 +1556,9 @@
 					</div>
 				</div>
 				<div class="container-fluid">
-					<div class="row padt5">
+					<div class="row padt7">
 						<div class="col-lg-4 col-lg-offset-4">
-							 <p class='padt10'>Neptune orbits our sun, a star. Neptune is the eighth planet from the sun at a distance of about 4.5 billion km (2.8 billion miles) or 30.07 AU.</p>
+							 <p>Neptune is the eighth planet from the sun at a distance of about 4.5 billion km (2.8 billion miles) or 30.07 AU.</p>
 						</div>
 					</div>
 					<div class="row padt5">
@@ -1559,7 +1566,6 @@
 							 <iframe src="planets_D3_scales/neptune.html" width="625" height="50" scrolling="no" frameborder="0"></iframe>
 						</div>
 					</div>                     
-			<!-- <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button> -->
 						</div>
 					</div>
 				</div>
@@ -1577,39 +1583,31 @@
 				<div class="container-fluid">
 					<div class="row compHud2">
 						<div class="col-lg-5 col-lg-offset-2">
-							 <p class='padt10'>Neptune is a sister ice giant to Uranus. Neptune is mostly made of a very thick, very hot combination of water (H2O), ammonia (NH3), and methane (CH4) over a possible heavier, approximately Earth-sized, solid core.</p>
+							 <p class='padt5'>Neptune is a sister ice giant to Uranus. Neptune is mostly made of a very thick, very hot combination of water, ammonia, and methane over a possible heavier, approximately Earth-sized, solid core.</p>
 							 <br />
-							<p>Neptune's atmosphere is made up mostly of hydrogen (H2), helium (He) and methane (CH4).</p>
+							<p>Neptune's atmosphere is made up mostly of hydrogen, helium, and methane.</p>
 							<ul class='padt15' id='psceneNeptuneComp' data-limit-x="10">
 								<li id='neptuneCompAstro' data-toggle="popover" data-placement="top" data-content="Voyager 2 is the only spacecraft to have visited Neptune." class="layer" data-depth="1.00"><img class='animated rollIn center-block img-responsive' src="img/factAstronautS.png" alt=""/></li>
 							</ul>
 						</div>
 						 <div class="col-lg-2 col-lg-offset-1 atmosphere">
 							<h3>Atmosphere</h3>
-							<div class='padt5'>
-							 	<h4>Hydrogen</h3>
+							<div class='padt7'>
+							 	<p>Hydrogen</p>
 								<div class='svgpad'>
 									<svg id="neptuneHydrogen" width="100%" height="100%"></svg>
 								</div>
-								<h4>Helium</h3>
+								<p>Helium</p>
 								<div class='svgpad'>
 									<svg id="neptuneHelium" width="100%" height="100%"></svg>
 								</div>
-								<h4>Other</h3>
+								<p>Other</p>
 								<div class='svgpad'>
 									<svg id="neptuneOther" width="100%" height="100%"></svg>
 								</div>
 							</div>
 						</div>
 					</div>  
-					<!-- <div class="row">
-						<div class="col-lg-4 col-lg-offset-1">
-							<ul>
-								<img class='animated rollIn center-block img-responsive' src="img/factAstronaut.png" alt=""/></li>
-							</ul>
-						</div>
-					</div> -->
-			<!-- <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button> -->
 						</div>
 					</div>
 				</div>
@@ -1629,15 +1627,15 @@
 						<div class="col-lg-4 col-lg-offset-2">
 							 <img id="tritonpic" src="img/moons/neptune/triton2.png" alt="Triton Moon Image" class="img-responsive moonImgs center-block" onclick="document.getElementById('beep').play()"/>
 						</div>
-						<div class="col-lg-4">							 
-							 <p class='moonTxt' id="triton" style="display: none"><strong>Triton</strong> is the largest of Neptune’s 13 moons. It is unusual because it is the only large moon in our solar system that orbits in the opposite direction of it’s planet’s rotation -- a retrograde orbit. Triton was discovered on the 10th of October 1846 by British astronomer William Lassell, just 17 days after Neptune itself was discovered by German astronomer Johann Gottfried Galle and Heinrich Louis d’Arrest.</p>
+						<div class="col-lg-5 padt1">							 
+							 <p class='moonTxt' id="triton" style="display: none"><strong>Triton</strong> is the largest of Neptune’s 13 moons. It is unusual because it is the only large moon in our solar system that orbits in the opposite direction of it’s planet’s rotation. Triton was discovered on the 10th of October 1846 by British astronomer William Lassell, just 17 days after Neptune itself was discovered by German astronomer Johann Gottfried Galle and Heinrich Louis d’Arrest.</p>
 						</div>
 					</div>
 					<div class="row padt3">
 						<div class="col-lg-4 col-lg-offset-2">
 							 <img id="nereidpic" src="img/moons/neptune/nereid2.png" alt="" class="img-responsive moonImgs center-block" onclick="document.getElementById('beep').play()"/>
 						</div>
-						<div class="col-lg-4">							 
+						<div class="col-lg-5 padt2">							 
 							 <p class='moonTxt' id="nereid" style="display: none"><strong>Nereid</strong> is one of the outermost of Neptune’s known moons and is among the largest. Nereid is so far from Neptune that it requires 360 Earth days to make one orbit. Nereid was discovered on the 1st of May 1949 by Gerard P. Kuiper with a ground-based telescope.</p>
 						</div>
 					</div>
@@ -1645,7 +1643,7 @@
 						<div class="col-lg-4 col-lg-offset-2">
 							  <img id="psamathepic" src="img/moons/neptune/psamathe2.png" alt="" class="img-responsive moonImgs center-block" onclick="document.getElementById('beep').play()"/>
 						</div>
-						<div class="col-lg-4">							 
+						<div class="col-lg-5 padt2">							 
 							 <p class='moonTxt' id="psamathe" style="display: none"><strong>Psamathe</strong> is so distant from Neptune it takes almost 26 Earth years to make a single orbit around the ice giant. The moon’s orbit is among the most distant from its planet than any other known moon in our solar system. Psamathe was discovered by Scott S. Sheppard, David C. Jewitt and Jan T. Kleyna on the 29th of August 2003.</p>
 						</div>
 					</div> 
@@ -1656,17 +1654,12 @@
 							</ul>
 						</div>
 					</div>
-			<!-- <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button> -->
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 		
-		
-    
-
-<!-- SCRIPTS -->
 	
     <!-- SCRIPTS -->
 	
@@ -1681,6 +1674,7 @@
 	<script src="bower_components/wowjs/dist/wow.min.js"></script>
 	<!-- parallax -->
 	<script src="js/parallax.min.js"></script>
+	<script src="js/pscenes.js"></script>
 	<!-- Three.js -->
 	<script type="text/javascript" src="bower_components/threejs/build/three.min.js"></script>
 	<!-- D3 -->
@@ -1691,9 +1685,6 @@
 	<script src="bower_components/stats.js/build/stats.min.js"></script>
 	<!-- planets.js -->
 	<script type="text/javascript" src="js/planets.js"></script>
-	<!-- skrollr -->
-	<script type="text/javascript" src="bower_components/skrollr/dist/skrollr.min.js"></script>
-
 	
 
 
@@ -1710,22 +1701,7 @@
 	         $("#sidebar-wrapper").toggleClass("active"); 
 	     });
  
-    // Scrolls to the selected menu item on the page
-		// $(function() {
-		 	//$('a[href*=#]:not([href=#])').click(function() {
-			//   if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-		 	  //     var target = $(this.hash);
-		 	  //     target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-		 	   //    if (target.length) {
-			    //       $('html,body').animate({
-			     //          scrollTop: target.offset().top
-		 	    //       }, 1000);
-		 	     //      return false;
-		 	    //   }
-		 //	   }
-		//	});
-		// }); 
-		
+    // Scrolls to the selected menu item on the page		
 	 function scrollNav() {
 	  $('.bob a').click(function(){  
 		//Animate
@@ -1751,101 +1727,11 @@
 	// WOW.js init
 	new WOW().init();
 	
-	// parallax init scenes.
-	var psceneRocket = document.getElementById('psceneRocket');
-	var parallax = new Parallax(psceneRocket);
 	
-	var psceneFirstAsteroids = document.getElementById('psceneFirstAsteroids');
-	var parallax = new Parallax(psceneFirstAsteroids);
-	
-	var psceneSecondAsteroids = document.getElementById('psceneSecondAsteroids');
-	var parallax = new Parallax(psceneSecondAsteroids);
-	
-	var psceneAfterMars = document.getElementById('psceneAfterMars');
-	var parallax = new Parallax(psceneAfterMars);
-	
-	var psceneAfterMars2 = document.getElementById('psceneAfterMars2');
-	var parallax = new Parallax(psceneAfterMars2);
-	
-	var psceneIntroAstros = document.getElementById('psceneIntroAstros');
-	var parallax = new Parallax(psceneIntroAstros);
-	
-	var psceneAfterSun = document.getElementById('psceneAfterSun');
-	var parallax = new Parallax(psceneAfterSun);
-	
-	var psceneExploreTxt = document.getElementById('psceneExploreTxt');
-	var parallax = new Parallax(psceneExploreTxt);
-	
-	var psceneCreatedBy = document.getElementById('psceneCreatedBy');
-	var parallax = new Parallax(psceneCreatedBy);
-	
-	var psceneNames = document.getElementById('psceneNames');
-	var parallax = new Parallax(psceneNames);
-	
-	var psceneWelcomeTxt = document.getElementById('psceneWelcomeTxt');
-	var parallax = new Parallax(psceneWelcomeTxt);
-	
-	
-	
-	
-	
-    var psceneSunComp = document.getElementById('psceneSunComp');
-	var parallax = new Parallax(psceneSunComp);
-	
-	var psceneMercuryComp = document.getElementById('psceneMercuryComp');
-	var parallax = new Parallax(psceneMercuryComp);
-	
-	var psceneVenusComp = document.getElementById('psceneVenusComp');
-	var parallax = new Parallax(psceneVenusComp);
-	
-	var psceneEarthComp = document.getElementById('psceneEarthComp');
-	var parallax = new Parallax(psceneEarthComp);
-	
-	var psceneMarsComp = document.getElementById('psceneMarsComp');
-	var parallax = new Parallax(psceneMarsComp);
-	
-	var psceneJupiterComp = document.getElementById('psceneJupiterComp');
-	var parallax = new Parallax(psceneJupiterComp);
-	
-	var psceneSaturnComp = document.getElementById('psceneSaturnComp');
-	var parallax = new Parallax(psceneSaturnComp);
-	
-	var psceneUranusComp = document.getElementById('psceneUranusComp');
-	var parallax = new Parallax(psceneUranusComp);
-	
-	var psceneNeptuneComp = document.getElementById('psceneNeptuneComp');
-	var parallax = new Parallax(psceneNeptuneComp);
-	
-	
-	<!---------------------------------------------- >
-	
-	var psceneEarthMoon = document.getElementById('psceneEarthMoon');
-	var parallax = new Parallax(psceneEarthMoon);
-	
-	var psceneMarsMoon = document.getElementById('psceneMarsMoon');
-	var parallax = new Parallax(psceneMarsMoon);
-	
-	var psceneJupiterMoon = document.getElementById('psceneJupiterMoon');
-	var parallax = new Parallax(psceneJupiterMoon);
-	
-	var psceneSaturnMoon = document.getElementById('psceneSaturnMoon');
-	var parallax = new Parallax(psceneSaturnMoon);
-	
-	var psceneUranusMoon = document.getElementById('psceneUranusMoon');
-	var parallax = new Parallax(psceneUranusMoon);
-	
-	var psceneNeptuneMoon = document.getElementById('psceneNeptuneMoon');
-	var parallax = new Parallax(psceneNeptuneMoon);
-	
-	
-	<!---------------------------------------------- >
-	
-	
-	
+	//Popovers
 	$('#leftAstro').popover({ trigger: "hover" });
 	
 	$('#rightAstro').popover({ trigger: "hover" });
-	
 	
 	
 	
@@ -1869,7 +1755,6 @@
 	
 	
 	
-	
 	$('#earthMoonAstro').popover({ trigger: "hover" });
 	
 	$('#marsMoonAstro').popover({ trigger: "hover" });
@@ -1881,11 +1766,6 @@
 	$('#uranusMoonAstro').popover({ trigger: "hover" });
 	
 	$('#neptuneMoonAstro').popover({ trigger: "hover" });
-	
-	
-
-	
-	
 	
 	
 	//audio scrolling code
@@ -1981,8 +1861,8 @@
 	});
 	
 	
-	<!---------------------------------------------- >
 	
+	//Other Images
 	$( "#shuttlepic" ).click(function() {
   	$( "#shuttle" ).slideToggle( "slow" );
 	});
@@ -2003,6 +1883,18 @@
   	$( "#MGS" ).slideToggle( "slow" );
 	});
 	
+	$( "#TDRSpic" ).click(function() {
+  	$( "#TDRS" ).slideToggle( "slow" );
+	});
+	
+	
+	$( "#voyagerpic" ).click(function() {
+  	$( "#voyager" ).slideToggle( "slow" );
+	});
+	
+	$( "#skylabpic" ).click(function() {
+  	$( "#skylab" ).slideToggle( "slow" );
+	});
 	
 	
 	
@@ -2011,11 +1903,11 @@
     $body = $(document.body),
     bodyHeight = $body.height();
 
-	//$(window).scroll(function () {
-	//	$rocketRotate.css({
-	//		'transform': 'translate(' + ($body.scrollTop() / bodyHeight * 50) + 'deg)'
-	//	});
-	//});
+	$(window).scroll(function () {
+		$rocketRotate.css({
+			'transform': 'rotate(' + ($body.scrollTop() / bodyHeight * 360) + 'deg)'
+		});
+	});
 	
 	 
 </script>
@@ -2034,7 +1926,6 @@
 	<script src="js/saturnD3.js" language="Javascript"></script>
 	<script src="js/uranusD3.js" language="JavaScript"></script>
 	<script src="js/neptuneD3.js" language="JavaScript"></script>
-	<!-- // <script src="js/d3data.js"></script> -->
 	
 
 	

@@ -194,10 +194,10 @@ var planetBumps = {
 //
 // bumAmount controller, easier to fine tune.
 var bumpAmount = {
-  mercury: 0, //0.2,
-  venus: 0, //0.2,
-  earth: 0, //0.4,
-  mars: 0 //0.8
+  mercury: 0.05, //0.2,
+  venus: 0.08, //0.2,
+  earth: 0.4, //0.4,
+  mars: 0.6 //0.8
 }
 
 /*
@@ -441,7 +441,7 @@ switch(containerId){
 case 'container1':
 camera.position.x = sunGroup.position.x * 1;
 camera.position.y = sunGroup.position.x * -.1;
-camera.position.z = 600;  // setup for the sun. we have to zoom out a lot.
+camera.position.z = 470;  // setup for the sun. we have to zoom out a lot.
 camera.lookAt( sunGroup.position );
 break;
 case 'container2':
@@ -453,43 +453,43 @@ break;
 case 'container3':
 camera.position.x = venusGroup.position.x * 1;
 camera.position.y = venusGroup.position.x * .01;
-camera.position.z = 100;
+camera.position.z = 88;
 camera.lookAt( venusGroup.position );
 break;
 case 'container4':
 camera.position.x = earthGroup.position.x * 1;
 camera.position.y = earthGroup.position.x * .01;
-camera.position.z = 200;
+camera.position.z = 250;
 camera.lookAt( earthGroup.position );
 break;
 case 'container5':
 camera.position.x = marsGroup.position.x * 1;
 camera.position.y = marsGroup.position.x * .01;
-camera.position.z = 200;
+camera.position.z = 285;
 camera.lookAt( marsGroup.position );
 break;
 case 'container6':
 camera.position.x = jupiterGroup.position.x * 1;
 camera.position.y = jupiterGroup.position.x * .01;
-camera.position.z = 400;
+camera.position.z = 300;
 camera.lookAt( jupiterGroup.position );
 break;
 case 'container7':
 camera.position.x = saturnGroup.position.x * 1;
 camera.position.y = saturnGroup.position.x * .01;
-camera.position.z = 400;
+camera.position.z = 330;
 camera.lookAt( saturnGroup.position );
 break;
 case 'container8':
 camera.position.x = uranusGroup.position.x * 1;
 camera.position.y = uranusGroup.position.x * .01;
-camera.position.z = 400;
+camera.position.z = 310;
 camera.lookAt( uranusGroup.position );
 break;
 case 'container9':
 camera.position.x = neptuneGroup.position.x * 1;
 camera.position.y = neptuneGroup.position.x * .01;
-camera.position.z = 400;
+camera.position.z = 310;
 camera.lookAt( neptuneGroup.position );
 break;
 default:

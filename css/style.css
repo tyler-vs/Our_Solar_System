@@ -21,38 +21,38 @@ h2,
 h3 
 {
 	 font-family: 'Coda', sans-serif;  
-	/* font-family: 'Inconsolata', ;  */
+	/* font-family: 'Cousine', ;  */
 	font-weight: 400;
 	letter-spacing: .5em;
 }
 
 h4 {
-	font-family: 'Inconsolata', sans-serif;  
+	font-family: 'Coda', sans-serif;  
 	font-weight: 400;
 	letter-spacing: .1em;
 }
 
 p {
-	font-family: 'Inconsolata', sans-serif;
+	font-family: 'Cousine', sans-serif;
 	font-weight: 400;
 	letter-spacing: .1em;
 	font-size: 22px;
 }
 
 .tab-content {
-	font-family: 'Inconsolata', sans-serif;
+	font-family: 'Cousine', sans-serif;
 	font-weight: 400;
 	letter-spacing: .1em;
 	font-size: 22px;
 }
 
 .tab-pane {
-	margin-right: 1%;	
+	margin-right: 0.5%;	
 }
 
 .exploretxt {
     font-family: 'Coda', sans-serif;  
-	/* font-family: 'Inconsolata', ;  */
+	/* font-family: 'Cousine', ;  */
 	font-weight: 400;
 	letter-spacing: .1em;
 	-webkit-animation-delay: 1.4s;
@@ -60,7 +60,7 @@ p {
 
 .welcometxt {
     font-family: 'Coda', sans-serif;  
-	/* font-family: 'Inconsolata', ;  */
+	/* font-family: 'Cousine', ;  */
 	font-weight: 400;
 	letter-spacing: .2em;
 }
@@ -83,7 +83,7 @@ p {
     padding: 0;
     font-size: 4em;
     font-weight: 700;
-	color: #fff;
+	color: #eee;
 	opacity: 0.8;
 	filter: alpha(opacity=80);
 	-moz-opacity:0.8;
@@ -94,14 +94,14 @@ p {
 
 .btn-dark {
     border-radius: 0;
-    color: #fff;
+    color: #eee;
     background-color: rgba(0,0,0,0.4);
 }
 
 .btn-dark:hover,
 .btn-dark:focus,
 .btn-dark:active {
-    color: #fff;
+    color: #eee;
     background-color: rgba(0,0,0,0.7);
 }
 
@@ -169,7 +169,7 @@ hr.small {
 
 .sidebar-nav li a:hover {
     text-decoration: none;
-    color: #fff;
+    color: #eee;
     background: rgba(255,255,255,0.2); 
 }
 
@@ -189,7 +189,7 @@ hr.small {
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
-    color: #fff;
+    color: #eee;
     background: none;
 }
 
@@ -288,7 +288,7 @@ hr.small {
 }
 
 .afterSun2 {
-	min-height: 100%;
+	min-height: 70%;
 	background: url(../img/afterSun2.jpg) no-repeat center center scroll;
 	color: #ddd;
 	 -webkit-background-size: cover;
@@ -407,6 +407,7 @@ footer {
     transform: translate(-50%, -50%);
 }
 
+
 .littleMap {
 	/*position: fixed;*/
 /*     top: 50%;
@@ -427,6 +428,7 @@ footer {
     background-size: cover;
     -o-background-size: cover;
 }
+
 
 .intro1 {
 	min-height: 100%;
@@ -463,6 +465,18 @@ footer {
 	line-height: 1.8em;
 	font-size: 22px;
 }
+.defaulth{
+	min-height: 50%;
+	background: url(../img/intro2.jpg) no-repeat center center scroll;
+	color: #ddd;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	/* 	-webkit-animation-duration: 5s; */
+     /* -webkit-animation-delay: .1s; */
+ /*  -webkit-animation-iteration-count: infinite; */
+}
 
 .default{
 	min-height: 100%;
@@ -493,6 +507,22 @@ footer {
 	margin-right: auto;
 }
 
+.margl5 {
+	margin-left: 5%;
+}
+
+.padl3 {
+	padding-left: 3%;
+}
+
+.padt1 {
+	padding-top: 1%;
+}
+
+.padt2 {
+	padding-top: 2%;
+}
+
 .padt3 {
 	padding-top: 3%;
 }
@@ -503,6 +533,10 @@ footer {
 
 .padt7 {
 	padding-top: 7%;
+}
+
+.padt9 {
+	padding-top: 9%;
 }
 
 .padt10 {
@@ -627,7 +661,7 @@ canvas {
     margin-top: 15px;
     border: solid 2px #fff;
     font-size: 22px;
-    color: #fff;
+    color: #eee;
     background: 0 0;
     transition: all .3s ease-in-out;
 }
@@ -759,7 +793,7 @@ footer .footer-below {
     -webkit-box-shadow: none;
     box-shadow: none;
 	background-color: rgba(0,0,0,0.8);
-	color: #fff;
+	color: #eee;
 }
 
 .portfolio-modal .modal-content h2 {
@@ -775,7 +809,7 @@ footer .footer-below {
     margin: 30px 0;
 }
 .modal-content p {
-	font-family: 'Inconsolata', sans-serif;
+	font-family: 'Cousine', sans-serif;
 	font-weight: 400;
 	letter-spacing: .2em;
 	font-size: 22px;
@@ -799,7 +833,7 @@ footer .footer-below {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #fff;
+    background-color: #eee;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -809,7 +843,7 @@ footer .footer-below {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #fff;
+    background-color: #eee;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
@@ -866,7 +900,7 @@ footer .footer-below {
 }
 
 .svgpad {
-	padding-top: 5%;
+	padding-top: 3%;
 	padding-left: 5%;
 }
 
@@ -877,7 +911,7 @@ footer .footer-below {
 }
 
 .popover-content {
-    font-family: 'Inconsolata', sans-serif;
+    font-family: 'Cousine', sans-serif;
 	font-weight: 400;
 	letter-spacing: .1em;
     font-size: 18px;
@@ -917,15 +951,15 @@ button {
    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
    box-shadow: rgba(0,0,0,1) 0 1px 0; */
   /*  text-shadow: rgba(0,0,0,.4) 0 1px 0; */
-   color: #fff;
+   color: #eee;
    font-size: 22px;
-   font-family: 'Inconsolata', sans-serif;
+   font-family: 'Cousine', sans-serif;
    text-decoration: none;
    vertical-align: middle;
    }
 button:hover {
    background: #335e85;
-   color: #fff;
+   color: #eee;
    }
 button:active {
    background: #1b435e;
@@ -933,20 +967,20 @@ button:active {
    
 #score {
    font-size: 22px;
-   font-family: 'Inconsolata', sans-serif;
+   font-family: 'Cousine', sans-serif;
    padding: .2em;
 }
 
 #options {
    font-size: 22px;
-   font-family: 'Inconsolata', sans-serif;
-   padding: .2em;
+   font-family: 'Cousine', sans-serif;
+   padding: 1em;
 }
 
 #prompts {
    font-size: 22px;
-   font-family: 'Inconsolata', sans-serif;
-   padding: .2em;
+   font-family: 'Cousine', sans-serif;
+   padding: .5em;
 }
 
 .moonImgs:hover {
@@ -986,6 +1020,7 @@ button:active {
 
 .navTxt {
   position: relative;
+  font-size: 16px;
 }
 
 .imgDescription {
@@ -996,7 +1031,7 @@ button:active {
   right: 0; 
   visibility: hidden;
   opacity: 0;
-  font-size: 18px;
+  font-size: 16px;
   /*remove comment if you want a gradual transition between states
   -webkit-transition: visibility opacity 0.2s;
   */
@@ -1015,3 +1050,34 @@ button:active {
 .resources {
 	text-align: left;
 }
+
+.smallFont {
+	font-size: 14px;
+}
+
+input[type=radio] {
+    border: 0px;
+    width: 100%;
+    height: 1.6em;
+}
+
+.rButtons{
+	display: inline;
+}
+
+.delay {
+	-webkit-animation-delay: 1s;
+}
+
+.delay1 {
+	-webkit-animation-delay: .8s;
+}
+
+.delay2 {
+	-webkit-animation-delay: 1.6s;
+}
+
+.delay3 {
+	-webkit-animation-delay: 2.4s;
+}
+

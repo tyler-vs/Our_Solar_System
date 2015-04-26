@@ -7,8 +7,8 @@
 	<div ng-show="!quizOver">
 		<p id="question">{{question}}</p>
 		<ul id="options">
-			<li ng-repeat="option in options">
-				<label>
+			<li class='rButtons padl3' ng-repeat="option in options">
+				<label class='padt3'>
 					<input type="radio" name="answer" value="{{option}}">
 					{{option}}
 				</label>
@@ -19,17 +19,18 @@
 		<div id="prompts" ng-show="!answerMode">
 			<button ng-click="nextQuestion()" class="next-question">Next</button>
 			<label><span ng-show="correctAns">That is correct!</span></label>
-			<label><span ng-show="!correctAns">Sorry, that is an incorrect answer.</span></label>
+			<label class='rButtons'><span ng-show="!correctAns">Sorry, that answer is incorrect.</span></label>
 		</div>
 	</div>
 
 	<div ng-show="quizOver">
-		<h3>Quiz is over</h3>
+		<h3>You got {{score}} correct!</h3>
+		<br />
 		<button ng-click="reset()">Play again</button>
 	</div>
 
-	<div id="score">
-		<label>
+	<div  id="score">
+		<label class='padt5'>
 			Score: {{score}}
 		</label>
 	</div>
@@ -37,5 +38,6 @@
 
 <div class="intro" ng-show="!inProgress">
 	<h3>Welcome to the Quiz</h3>
-	<button id="startQuiz" ng-click="start()">Start the Quiz</button>
+	<br />
+	<button id="startQuiz" ng-click="start()">Start</button>
 </div>
