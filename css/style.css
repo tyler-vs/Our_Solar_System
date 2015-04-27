@@ -1063,7 +1063,7 @@ button:active {
 
 input[type=radio] {
     border: 0px;
-    width: 35px;
+    width: 100%;
 	height: 35px;
     /* height: 1.6em; */
 }
