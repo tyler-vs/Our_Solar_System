@@ -1018,6 +1018,15 @@ button:active {
 	padding-left: 2%;
 }
 
+.endNames a {
+	color: #A4B2BF;
+}
+
+.endNames a:hover {
+	color: #747E87;
+	text-decoration: none;
+}
+
 .navTxt {
   position: relative;
   font-size: 16px;
@@ -1055,6 +1064,15 @@ button:active {
 	font-size: 14px;
 }
 
+.smallFont a {
+	color: #A4B2BF;
+}
+
+.smallFont a:hover {
+	color: #747E87;
+	text-decoration: none;
+}
+
 input[type=radio] {
     border: 0px;
     width: 100%;
@@ -1080,4 +1098,5 @@ input[type=radio] {
 .delay3 {
 	-webkit-animation-delay: 2.4s;
 }
+
 
